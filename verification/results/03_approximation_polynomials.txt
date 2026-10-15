@@ -1,0 +1,15 @@
+N2 completed
+N3 completed
+A3 completed
+A4 completed
+A5 completed
+quadratic rows completed
+linear rows completed
+generic exact residue instances completed
+Lemma 4.4: full normalized polynomial matrix and determinant completed
+PASS: 676 exact polynomial, determinant, coefficient and bound checks.
+Five families: N2, N3, A3, A4, A5. Uniform M: 243, 4143, 2265, 165763, 3113013
+P rows: all four full polynomial rows, determinant, leading residuals and coefficient bounds checked.
+Q rows: all five full polynomial rows, determinant and residual cancellation checked.
+Lemma 4.4: full normalized R matrix, integrality, column factors and determinant checked.
+Results: approximation_polynomials.json; approximation_polynomials_coefficients.json

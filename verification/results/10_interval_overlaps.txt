@@ -1,0 +1,4 @@
+PASS: 26 endpoint reconstructions and 15 overlap reconstructions
+Minimum quotient: 7834457305497600/5386911336360281 > 7/5
+Infinite-tail lower bound: 14171760/7 > 1
+Output: interval_overlaps.json

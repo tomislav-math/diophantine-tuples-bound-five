@@ -1,0 +1,13 @@
+Source SHA256 9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432
+PELL progress 100 [100, 48, 5650, 2825, 0]
+PELL progress 200 [200, 90, 7956, 3978, 0]
+PELL progress 300 [300, 133, 9904, 4952, 0]
+PELL progress 400 [400, 171, 11332, 5666, 0]
+PELL progress 500 [500, 209, 12876, 6438, 0]
+PELL progress 600 [600, 250, 14456, 7228, 0]
+PELL progress 700 [700, 287, 15848, 7924, 0]
+PELL progress 800 [800, 324, 16896, 8448, 0]
+PELL progress 900 [900, 363, 18310, 9155, 0]
+PELL progress 1000 [1000, 404, 19422, 9711, 0]
+PASS Pell graphs [1016, 409, 19612, 9806, 0]
+RUNTIME {"mode": "pell", "passed": true, "seconds": 3.5870107999980974, "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432", "algorithm": "exact integer square tests; reversible descent or continued fractions"}

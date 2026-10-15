@@ -1,0 +1,2 @@
+PASS: 14 article formula controls; 11 Bennett normalization and determinant examples; root-transfer polynomial identity; both root constants; R2 cancellation.
+Results: approximation_bounds.json

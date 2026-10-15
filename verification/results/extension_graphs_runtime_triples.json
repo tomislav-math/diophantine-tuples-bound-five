@@ -1,0 +1,7 @@
+{
+  "mode": "triples",
+  "passed": true,
+  "seconds": 0.08987599800093449,
+  "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
+  "algorithm": "exact integer square tests; reversible descent or continued fractions"
+}

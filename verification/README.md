@@ -1,48 +1,68 @@
-# Numerical verification
+# Numerical verification of the article
 
-This supplement contains the exact-arithmetic programs used to check the numerical and symbolic computations in **A uniform bound of five for Diophantine tuples in imaginary quadratic integer rings**. It includes reproducible computations, their saved outputs, and earlier numerical implementations.
+This directory accompanies [the paper dated 15 October 2026](../Diophantine_tuples_bound_five_2026-10-15.pdf).
+The table below identifies each calculation, the method used, its program,
+and the actual output of the program. The mathematical checks use exact integer,
+rational or polynomial arithmetic; decimal values in the output are for display.
 
-## Running the checks
+**All eleven checks passed in a complete run on 15 October 2026.**
+The full run took about 2 minutes 40 seconds on the recorded machine.
 
-Use **Python 3.10 or later**. The main checks use only the Python standard library. Run these commands from this directory, without `-O` or `-OO`.
+## What is checked
+
+| Part of the paper | What the program does | Program | Output |
+|---|---|---|---|
+| Lemmas 2.2 and 2.5 | Enumerates the finite tail candidates and checks the structural identities and determinant constants | [structural_checks.py](programs/structural_checks.py) | [01_structural.txt](results/01_structural.txt) |
+| Explicit bounds in Sections 2–3 and Lemma 7.4 | Checks the rational inequalities used in the growth, interpolation and fourth-element estimates | [gap_bounds.py](programs/gap_bounds.py) | [02_gap_bounds.txt](results/02_gap_bounds.txt) |
+| Approximation constructions in Sections 4–5 | Constructs the polynomial matrices and verifies their coefficients, divisibility, determinants and residual cancellations | [approximation_polynomials.py](programs/approximation_polynomials.py) | [03_approximation_polynomials.txt](results/03_approximation_polynomials.txt) |
+| Normalization and root transfer in Section 4 | Checks the root-transfer algebra and bounds, together with explicitly listed finite determinant examples | [approximation_bounds.py](programs/approximation_bounds.py) | [04_approximation_bounds.txt](results/04_approximation_bounds.txt) |
+| Constants in Section 7 | Verifies the numerical inequalities used to obtain the finite search bounds | [small_element_bounds.py](programs/small_element_bounds.py) | [05_small_element_bounds.txt](results/05_small_element_bounds.txt) |
+| Lemma 7.12 and Table 5 | Enumerates the small triples and computes their extension closures through modulus 10^40 | [extension_graphs.py triples](programs/extension_graphs.py) | [06_small_triples.txt](results/06_small_triples.txt) |
+| Lemma 7.6 and Table 4 | Classifies the small pairs, constructs all 48 extension graphs through modulus 10^550, and tests every graph for triangles | [extension_graphs.py pairs](programs/extension_graphs.py) | [07_pair_graphs.txt](results/07_pair_graphs.txt) |
+| Lemma 7.9 | Uses continued fractions to enumerate the exceptional-pair extensions in 1,016 fields and checks the resulting graphs | [extension_graphs.py pell](programs/extension_graphs.py) | [08_pell_graphs.txt](results/08_pell_graphs.txt) |
+| Sections 8–9, Tables 6–10 | Enumerates the first pairs and third elements, regenerates the specialized coefficients, and verifies the interval overlaps and final cutoffs | [one_small_element.py](programs/one_small_element.py) | [09_one_small_element.txt](results/09_one_small_element.txt) |
+| The interval chain in Sections 5.5–6 | Checks the endpoint formulas and the overlaps used when no entry is small | [interval_overlaps.py](programs/interval_overlaps.py) | [10_interval_overlaps.txt](results/10_interval_overlaps.txt) |
+| Interval calculations in Sections 8–9 | Reconstructs the coefficients, overlaps and fixed-triple cutoffs with a separate implementation | [independent_intervals.py](programs/independent_intervals.py) | [11_independent_intervals.txt](results/11_independent_intervals.txt) |
+
+The [results page](results/README.md) gives the status and running time of
+every check. Detailed numerical results are saved as JSON files beside the
+text outputs. The complete execution record, including the hashes of the
+programs actually run, is in [run_details.json](results/run_details.json).
+
+## How to reproduce the results
+
+Install **Python 3.10 or later**. No additional Python packages are required.
+From the repository root, run:
 
 ```sh
-python3 run_checks.py --quick
-python3 run_checks.py --full
+python3 verification/run_all.py
 ```
 
-`--quick` runs seven exact checks, including the small first-pair and triple enumerations, coefficients, cutoffs, and interval comparisons. It omits the large extension graphs and full symbolic expansion of the approximation families. `--full` adds that expansion and all three graph/closure computations below. The full run can take substantially longer.
+This runs all eleven checks, including all large graph computations.
+It creates a new directory under `verification/reruns/` and prints its
+location. The supplied results are not overwritten. Each program's complete
+output and exit status are saved. The command succeeds only if every check
+succeeds.
 
-Each run first checks the supplied file hashes, then executes the programs in a temporary copy. Saved evidence is never overwritten. Fresh logs and generated JSON files are written under `runs/`; choose another new directory with `--results PATH`. A failed check gives a nonzero exit status. `run_summary.json` records exactly which checks ran and their exit statuses.
+To run just one calculation, for example the 48 pair graphs:
 
-## Programs and coverage
+```sh
+python3 verification/run_all.py --only 07_pair_graphs
+```
 
-| Computation | Program | Run |
-| --- | --- | --- |
-| Structural identities, finite irregular-tail computation (90 pairs, 118 retained triples, 16 candidates), and determinant constants | [`structural_v2.py`](packages/enumeration/revision_v2/checks/structural_v2.py) | quick/full |
-| Rational bounds and identities for cases with small elements | [`small_v2_constants.py`](packages/enumeration/revision_v2/checks/small_v2_constants.py) | quick/full |
-| Revised structural and interpolation constants, product bound and fourth-element estimates | [`math_review_checks.py`](packages/current/revision_v4/checks/math_review_checks.py) | quick/full |
-| Root-transfer identities and normalization; finite sample checks of the determinant identity | [`approximation_local.py`](packages/current/revision_v4/checks/approximation_local.py) | quick/full |
-| Forty first-pair classes, 57 triples, specialized coefficients, 41 overlap certificates, 56 cutoffs and the triple (1,3,8) | [`completion_v4.py`](packages/current/revision_v4/checks/completion_v4.py) | quick/full |
-| Equivalence of the printed interval formulas and the unified interval table | [`interval_equivalence.py`](packages/current/revision_v4/checks/interval_equivalence.py) | quick/full |
-| Independent reconstruction of coefficients, interval overlaps and fixed-triple cutoffs | [`interval_referee_independent.py`](packages/current/revision_v4/reviews/interval_referee_independent.py) | quick/full |
-| Five finite approximation families, determinants, coefficient sums, residuals, and the additional P and Q rows | [`approximation_exact.py`](packages/enumeration/revision_v2/checks/approximation_exact.py) | full |
-| Ten small-triple classes and their extension closures through modulus 10^40 | [`small_v2_exact.py triples`](packages/enumeration/revision_v2/checks/small_v2_exact.py) | full |
-| Seventy-two small-pair classes and all 48 nondegenerate extension graphs through modulus 10^550 | [`small_v2_exact.py pairs`](packages/enumeration/revision_v2/checks/small_v2_exact.py) | full |
-| Pell enumeration for 1,016 fields and the graphs for the pair {-1,1}, through modulus 10^550 | [`small_v2_exact.py pell`](packages/enumeration/revision_v2/checks/small_v2_exact.py) | full |
+Use `--list` to list the check names, or `--results PATH` to select a new
+output directory. Run Python without `-O` or `-OO`, since the programs use
+assertions to test the identities and inequalities.
 
-Expected graph totals are 36,931 vertices, 36,854 edges and no triangles for the 48 pair graphs. The Pell computation gives 409 nonempty graphs, 19,612 vertices, 9,806 edges and no triangles. All acceptance decisions in the main programs use exact integers or rational numbers; decimal diagnostics are for display.
+## Input and interpretation
 
-## Files and provenance
+The only manuscript input is [data/article.txt](data/article.txt), the exact
+text source of the PDF linked above. It supplies the printed formulas and
+tables against which the calculations are compared. The programs perform
+the calculations themselves; saved result files are not used as answers.
+No typesetting software is required.
 
-- [`packages/current/`](packages/current/) contains checks of the final mathematical version.
-- [`packages/enumeration/`](packages/enumeration/) contains the original polynomial and enumeration programs, retaining their internal version names and frozen inputs. Later changes to constants and interval formulas are checked by the current programs.
-- [`recorded_results/`](recorded_results/) contains outputs saved during the preparation and verification of the article. Their presence does not mean that a new run has recomputed them.
-- [`archive/numerical_history.zip`](archive/numerical_history.zip) preserves earlier numerical implementations and their available outputs, with a separate guide. These are historical checks and are not part of the two commands above.
-- [`PROVENANCE.json`](PROVENANCE.json) records the original and distributed hashes. [`MANIFEST.json`](MANIFEST.json) records the hashes checked by the runner.
-
-Some programs extract printed tables and formulas from frozen text snapshots. The `.txt` files inside `packages/` preserve the original input bytes, including mathematical markup; they are data inputs and require no typesetting software. Only their filenames and the corresponding pathname strings in the programs have changed. This preserves the programs' original source-hash checks.
-
-The seven `--quick` checks passed again when this supplement was packaged on 15 October 2026; the fresh logs are in [`recorded_results/package_check_2026-10-15/`](recorded_results/package_check_2026-10-15/). The large graphs and full polynomial expansion were not rerun during this packaging step.
-
-The scripts check the finite computations and explicitly listed algebraic identities. The completeness of the bounded enumerations uses the descent and continued-fraction arguments proved in the article. Finite sample determinant tests do not prove an identity for arbitrary order.
+The programs verify the finite computations and the algebraic identities
+listed above. The proofs that the bounded searches cover all relevant
+possibilities are given in the article. The ordinary-family determinant examples
+are finite tests; the general identity is the cited theorem used in the paper.

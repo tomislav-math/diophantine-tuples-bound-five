@@ -1,0 +1,13 @@
+Source SHA256 9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432
+TRIPLE {'row': 1, 'd': 1, 'orbit': 2, 'pair_count': 61, 'extensions': [(120, 0)], 'initial_count': 3}
+TRIPLE {'row': 2, 'd': 1, 'orbit': 2, 'pair_count': 89, 'extensions': [(0, 30)], 'initial_count': 5}
+TRIPLE {'row': 3, 'd': 1, 'orbit': 2, 'pair_count': 64, 'extensions': [(0, -80)], 'initial_count': 3}
+TRIPLE {'row': 4, 'd': 1, 'orbit': 4, 'pair_count': 105, 'extensions': [(8, 24)], 'initial_count': 5}
+TRIPLE {'row': 5, 'd': 2, 'orbit': 2, 'pair_count': 71, 'extensions': [(-48, 0)], 'initial_count': 4}
+TRIPLE {'row': 6, 'd': 3, 'orbit': 2, 'pair_count': 112, 'extensions': [(16, 0)], 'initial_count': 5}
+TRIPLE {'row': 7, 'd': 3, 'orbit': 4, 'pair_count': 112, 'extensions': [(-24, 8)], 'initial_count': 5}
+TRIPLE {'row': 8, 'd': 3, 'orbit': 2, 'pair_count': 57, 'extensions': [], 'initial_count': 4}
+TRIPLE {'row': 9, 'd': 7, 'orbit': 2, 'pair_count': 83, 'extensions': [(48, 0)], 'initial_count': 4}
+TRIPLE {'row': 10, 'd': 7, 'orbit': 2, 'pair_count': 55, 'extensions': [(0, -64)], 'initial_count': 3}
+PASS 24 triples,10 orbits,no 4-clique; all ten radius1e40 pair closures and extension lists
+RUNTIME {"mode": "triples", "passed": true, "seconds": 0.08987599800093449, "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432", "algorithm": "exact integer square tests; reversible descent or continued fractions"}

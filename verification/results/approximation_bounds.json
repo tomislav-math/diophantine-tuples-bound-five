@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "article_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
+  "paper_references": [
+    "Lemma 4.1, Proposition 4.2 and Section 5.1"
+  ],
+  "method": "Exact fractions.Fraction arithmetic and polynomial coefficient comparison",
+  "source_controls": {
+    "Bennett exact location": true,
+    "Bennett coefficient equality": true,
+    "Bennett term normalization": true,
+    "Bennett extra pole": true,
+    "Bennett zero node guard": true,
+    "root nonzero guards": true,
+    "root factorization": true,
+    "root sign choice": true,
+    "root bound chain": true,
+    "root proof reuse": true,
+    "root basic constant": true,
+    "root sharper constant": true,
+    "root zero-root allowance": true,
+    "R2 simplified expression": true
+  },
+  "Bennett_source": "https://personal.math.ubc.ca/~bennett/B-Binom.pdf",
+  "Bennett_location": "Section 2, p. 1721, unnumbered determinant identity following (2.4)",
+  "Bennett_samples": [
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 1,
+      "N": 101,
+      "determinant": "3/40387799200",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 2,
+      "N": 101,
+      "determinant": "-9/521975783750246604800",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 3,
+      "N": 101,
+      "determinant": "3/430233737578930261737635840000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 4,
+      "N": 101,
+      "determinant": "-3861/1112076403353813091959237080873172992000000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 5,
+      "N": 101,
+      "determinant": "2166021/1122857961842800242809520045187496786693980160000000000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3,
+        7
+      ],
+      "k": 1,
+      "N": 103,
+      "determinant": "1/11435889835238400",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3,
+        7
+      ],
+      "k": 2,
+      "N": 103,
+      "determinant": "-1/11956989835310533439852327731200",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3,
+        7
+      ],
+      "k": 3,
+      "N": 103,
+      "determinant": "143/949358082851297535823525785576406154565648384000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        -3,
+        5
+      ],
+      "k": 1,
+      "N": -101,
+      "determinant": "-1/39563558400",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        -3,
+        5
+      ],
+      "k": 2,
+      "N": -101,
+      "determinant": "-1/500888049046467379200",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        -3,
+        5
+      ],
+      "k": 3,
+      "N": -101,
+      "determinant": "-49/178352222222807788236067307520000",
+      "normalization_matches": true
+    }
+  ],
+  "root_transfer_cleared_polynomial_identity": true,
+  "root_transfer_constants_squared": {
+    "basic": "1001/640",
+    "sharper": "40441401/40000000"
+  },
+  "R2_cancellation": true,
+  "scope": "All 11 listed finite normalization and determinant examples are recomputed. The root-transfer polynomial identity and both rational constant inequalities are checked exactly. The determinant identity for arbitrary order is supplied by the cited theorem in the article."
+}

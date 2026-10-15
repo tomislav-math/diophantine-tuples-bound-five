@@ -29,6 +29,7 @@ integers of an imaginary quadratic field.
 | [verification/](verification/) | Numerical verification programs, input data and recorded results |
 | [verification/README.md](verification/README.md) | What each program checks, requirements and reproduction commands |
 
-The verification guide distinguishes the current calculations from
-earlier independent checks and identifies which computations each command
-repeats.
+The verification guide lists each calculation, explains its method, and
+links directly to the program and its recorded output. All eleven groups
+of checks passed in a complete run on 15 October 2026. The full verification
+can be repeated with one command and requires only Python.
