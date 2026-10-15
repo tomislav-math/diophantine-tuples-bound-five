@@ -26,7 +26,7 @@ else:
 START=time.monotonic()
 TEXT=SOURCE.read_text(encoding='utf-8')
 SHA=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
-EXPECTED='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
+EXPECTED='3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f'
 assert SHA==EXPECTED, 'The article input does not match this verification release'
 S4=TEXT[TEXT.index(r'\section{Simultaneous approximation}'):TEXT.index(r'\section{Finite integral approximation forms}')]
 S5=TEXT[TEXT.index(r'\section{Finite integral approximation forms}'):TEXT.index(r'\section{',TEXT.index(r'\section{Finite integral approximation forms}')+1)]

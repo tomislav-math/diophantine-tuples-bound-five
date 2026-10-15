@@ -27,7 +27,7 @@ else:
     RESULTS = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
     print('Results directory:', RESULTS)
 SOURCE_HASH = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
-EXPECTED_HASH = '9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
+EXPECTED_HASH = '3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f'
 assert SOURCE_HASH == EXPECTED_HASH, 'The article input does not match this verification release'
 
 def normalized(value):

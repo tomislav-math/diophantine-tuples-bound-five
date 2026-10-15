@@ -33,3 +33,5 @@ The verification guide lists each calculation, explains its method, and
 links directly to the program and its recorded output. All eleven groups
 of checks passed in a complete run on 15 October 2026. The full verification
 can be repeated with one command and requires only Python.
+
+The code in verification/ is released under the MIT License; the article (PDF and LaTeX source) is not covered by this license and remains copyright the authors.

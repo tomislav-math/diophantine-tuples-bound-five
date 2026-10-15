@@ -1,26 +1,26 @@
 {
   "status": "PASS",
-  "article_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
+  "article_sha256": "3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f",
   "scoped_blocks": {
     "lem:product-four": {
       "sha256": "a6c08e2f377ce4e58d841d4f64bf11574a307eb46ab4e78166b1afb33e693e20",
-      "start_line": 291
+      "start_line": 293
     },
     "lem:interpolation-parameters": {
       "sha256": "6f5e1d6d47b032d3ceb2f1f1a9d1ee2c78b87e3b2af4e54a59b69714c6ef68ae",
-      "start_line": 605
+      "start_line": 607
     },
     "lem:direct-four": {
       "sha256": "48de7962859ca1742e081fc8449c04c40867d96608efc4ba659f09a20de6435f",
-      "start_line": 769
+      "start_line": 771
     },
     "lem:retained-gap": {
       "sha256": "25301d58d61284dcc992f4016d1197699bb474dd6489b1f7c9ff710c66de6eb6",
-      "start_line": 801
+      "start_line": 803
     },
     "sm:bs7-cutoff": {
       "sha256": "d0400b0e7f3026f575e3a4f0bbfc74a7d15a478fd273623aa75728d7d6ce621f",
-      "start_line": 2296
+      "start_line": 2298
     }
   },
   "checks": [
@@ -115,7 +115,7 @@
     {
       "name": "exactly two direct-four theorem consumers",
       "pass": true,
-      "lines": "[867, 2384]"
+      "lines": "[869, 2386]"
     },
     {
       "name": "both consumers belong to reviewed lemmas",

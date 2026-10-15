@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "article_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
+  "article_sha256": "3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f",
   "paper_sections": [
     "Section 4, Simultaneous approximation",
     "Section 5.2, Five families with two fixed entries",
@@ -3203,5 +3203,5 @@
   ],
   "expanded_coefficients_file": "approximation_polynomials_coefficients.json",
   "scope": "The five finite families, normalized R matrix of Lemma 4.4, and P/Q polynomial identities are checked in full. Ordinary-family evaluations at m=2,3,4,5 and k=1,2,3 are finite examples; the all-order identity is the cited theorem in the article.",
-  "elapsed_seconds": 6.123
+  "elapsed_seconds": 5.842
 }

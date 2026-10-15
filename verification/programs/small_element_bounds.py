@@ -9,7 +9,7 @@ from math import prod
 import hashlib,json,os,tempfile
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/'data/article.tex'
-EXPECTED_SOURCE_SHA='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
+EXPECTED_SOURCE_SHA='3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f'
 assert hashlib.sha256(SRC.read_bytes()).hexdigest()==EXPECTED_SOURCE_SHA
 if os.environ.get('D1_RESULTS_DIR'):
  OUT=Path(os.environ['D1_RESULTS_DIR']);OUT.mkdir(parents=True,exist_ok=True)

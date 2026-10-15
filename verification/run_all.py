@@ -20,7 +20,7 @@ JOBS = [
     ('05_small_element_bounds', 'Constants for the small-element cases', 'small_element_bounds.py', []),
     ('06_small_triples', 'The ten small-triple classes', 'extension_graphs.py', ['triples']),
     ('07_pair_graphs', 'The 48 small-pair extension graphs', 'extension_graphs.py', ['pairs']),
-    ('08_pell_graphs', 'The exceptional-pair graphs in 1016 fields', 'extension_graphs.py', ['pell']),
+    ('08_pell_graphs', 'The graphs for the pair {-1,1} in 1016 fields', 'extension_graphs.py', ['pell']),
     ('09_one_small_element', 'First pairs, third elements and cutoffs', 'one_small_element.py', []),
     ('10_interval_overlaps', 'The interval chain with no small elements', 'interval_overlaps.py', []),
     ('11_independent_intervals', 'Independent check of the remaining interval chains', 'independent_intervals.py', []),
@@ -47,7 +47,7 @@ def main():
         parser.error('Do not use -O or -OO, because the checks use assertions.')
     selected = [row for row in JOBS if args.only is None or row[0] == args.only]
     source = ROOT / 'data/article.tex'
-    expected = '9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
+    expected = '3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f'
     if digest(source) != expected:
         raise SystemExit('The article input does not match the dated paper.')
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')

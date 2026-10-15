@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 source=ROOT/'data/article.tex'
 source_bytes=source.read_bytes()
-EXPECTED='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
+EXPECTED='3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f'
 assert hashlib.sha256(source_bytes).hexdigest()==EXPECTED
 s=source_bytes.decode('utf-8')
 import tempfile

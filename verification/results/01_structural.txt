@@ -5,5 +5,5 @@ Phase-bound row {"B0": "4", "F2_3": "748525523621821483/1934346231480320000", "F
 Phase-bound row {"B0": "3", "F2_3": "1165213747/2539579392", "Ft": "10395090847/10475764992", "alpha": "12/7", "t": "11/4"}
 Phase-bound row {"B0": "3", "F2_3": "22952137/56010528", "Ft": "1207645121/1218228984", "alpha": "2", "t": "29/10"}
 Phase-bound row {"B0": "3", "F2_3": "11429375189/29872281600", "Ft": "133650570677/134425267200", "alpha": "20/9", "t": "3"}
-Article SHA256 9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432
+Article SHA256 3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f
 Detailed results: structural_checks.json

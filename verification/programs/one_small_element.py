@@ -19,7 +19,7 @@ ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'data/article.tex'
 TEX=SOURCE.read_text(encoding='utf-8')
 SOURCE_HASH=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
-EXPECTED='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
+EXPECTED='3653744c838aa8daae33a6e0ce52bf64034f14142af27a2343af7fa6610fe95f'
 assert SOURCE_HASH==EXPECTED
 import tempfile
 if os.environ.get('D1_RESULTS_DIR'):
