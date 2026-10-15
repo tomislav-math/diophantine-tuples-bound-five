@@ -3203,5 +3203,5 @@
   ],
   "expanded_coefficients_file": "approximation_polynomials_coefficients.json",
   "scope": "The five finite families, normalized R matrix of Lemma 4.4, and P/Q polynomial identities are checked in full. Ordinary-family evaluations at m=2,3,4,5 and k=1,2,3 are finite examples; the all-order identity is the cited theorem in the article.",
-  "elapsed_seconds": 5.903
+  "elapsed_seconds": 6.123
 }

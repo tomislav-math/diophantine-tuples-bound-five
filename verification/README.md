@@ -6,7 +6,8 @@ and the actual output of the program. The mathematical checks use exact integer,
 rational or polynomial arithmetic; decimal values in the output are for display.
 
 **All eleven checks passed in a complete run on 15 October 2026.**
-The full run took about 2 minutes 40 seconds on the recorded machine.
+The full run takes about three minutes on the recorded machine; timings
+for each calculation are given on the results page.
 
 ## What is checked
 
@@ -29,10 +30,16 @@ every check. Detailed numerical results are saved as JSON files beside the
 text outputs. The complete execution record, including the hashes of the
 programs actually run, is in [run_details.json](results/run_details.json).
 
+In the graph outputs, a coordinate pair `(u, v)` represents
+$(u+v\sqrt{-d})/2$. In the one-small-entry calculations, it represents
+$u+v\omega$, with $\omega$ as defined in the article. Junction numbers
+start at 1.
+
 ## How to reproduce the results
 
 Install **Python 3.10 or later**. No additional Python packages are required.
-From the repository root, run:
+Download the repository with **Code → Download ZIP**, then extract it.
+Open a terminal in the extracted repository folder and run:
 
 ```sh
 python3 verification/run_all.py
@@ -56,11 +63,11 @@ assertions to test the identities and inequalities.
 
 ## Input and interpretation
 
-The only manuscript input is [data/article.txt](data/article.txt), the exact
-text source of the PDF linked above. It supplies the printed formulas and
+The only manuscript input is [data/article.tex](data/article.tex), the complete
+LaTeX source of the PDF linked above. It supplies the printed formulas and
 tables against which the calculations are compared. The programs perform
 the calculations themselves; saved result files are not used as answers.
-No typesetting software is required.
+The source is read as text. No LaTeX installation or typesetting software is required.
 
 The programs verify the finite computations and the algebraic identities
 listed above. The proofs that the bounded searches cover all relevant

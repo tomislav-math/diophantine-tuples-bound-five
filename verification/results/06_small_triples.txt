@@ -10,4 +10,4 @@ TRIPLE {'row': 8, 'd': 3, 'orbit': 2, 'pair_count': 57, 'extensions': [], 'initi
 TRIPLE {'row': 9, 'd': 7, 'orbit': 2, 'pair_count': 83, 'extensions': [(48, 0)], 'initial_count': 4}
 TRIPLE {'row': 10, 'd': 7, 'orbit': 2, 'pair_count': 55, 'extensions': [(0, -64)], 'initial_count': 3}
 PASS 24 triples,10 orbits,no 4-clique; all ten radius1e40 pair closures and extension lists
-RUNTIME {"mode": "triples", "passed": true, "seconds": 0.08987599800093449, "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432", "algorithm": "exact integer square tests; reversible descent or continued fractions"}
+RUNTIME {"mode": "triples", "passed": true, "seconds": 0.08469826500004274, "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432", "algorithm": "exact integer square tests; reversible descent or continued fractions"}

@@ -1,7 +1,7 @@
 {
   "mode": "pairs",
   "passed": true,
-  "seconds": 148.26965193599972,
+  "seconds": 148.20089677700162,
   "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
   "algorithm": "exact integer square tests; reversible descent or continued fractions"
 }

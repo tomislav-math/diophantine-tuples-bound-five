@@ -2,8 +2,11 @@
 """Exact checks of gap-bound constants in Sections 2, 3 and 7.
 
 Uses only integers and rational numbers. Reads the fixed article data and writes
-results/gap_bounds.json (or the directory selected by D1_RESULTS_DIR).
+a new rerun directory (or the directory selected by D1_RESULTS_DIR).
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from fractions import Fraction as F
 from hashlib import sha256
 from itertools import permutations
@@ -13,11 +16,17 @@ import os
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data/article.txt"
+SOURCE = ROOT / "data/article.tex"
 EXPECTED = "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432"
-source = SOURCE.read_text()
-RESULTS = Path(os.environ.get("D1_RESULTS_DIR", ROOT / "results"))
-RESULTS.mkdir(parents=True, exist_ok=True)
+source = SOURCE.read_text(encoding='utf-8')
+import tempfile
+if os.environ.get('D1_RESULTS_DIR'):
+    RESULTS = Path(os.environ['D1_RESULTS_DIR'])
+    RESULTS.mkdir(parents=True, exist_ok=True)
+else:
+    (ROOT/'reruns').mkdir(exist_ok=True)
+    RESULTS = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
+    print('Results directory:', RESULTS)
 checks = []
 
 
@@ -102,7 +111,7 @@ check("product-four exact determinant coefficient",
       det_coefficient == F(18212679025, 27518828544), value=det_coefficient)
 check("product-four implies D > (3/2)ABC", det_coefficient < F(2, 3),
       margin=F(2, 3)-det_coefficient)
-check("product-five still may use older 1/8 majorant", F(11, 96) < F(1, 8))
+check("product-five norm bound 11/96 < 1/8", F(11, 96) < F(1, 8))
 check("cutoff 3/8 consequence of the 3/2 bound", F(3, 2) > F(3, 8))
 
 # Three anchors: factorization and the explicit rational endpoints.

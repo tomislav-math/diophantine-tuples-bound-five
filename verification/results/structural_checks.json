@@ -777,7 +777,7 @@
       "upper_Q": "2126295040/142842001"
     }
   ],
-  "source": "data/article.txt",
+  "source": "data/article.tex",
   "source_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
   "assertions": 128,
   "checks": [

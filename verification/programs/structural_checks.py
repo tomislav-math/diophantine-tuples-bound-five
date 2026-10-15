@@ -2,6 +2,9 @@
 """Exact structural identities, the regular-tail enumeration, and gap constants.
 All arithmetic is integer, rational, or sparse Laurent-polynomial arithmetic.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from pathlib import Path
 from fractions import Fraction as F
 from itertools import combinations, permutations, product
@@ -83,7 +86,7 @@ s=Sym()
 
 
 ROOT=Path(__file__).resolve().parents[1]
-SRC=ROOT/'data/article.txt'
+SRC=ROOT/'data/article.tex'
 EXPECTED_SOURCE_SHA='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert hashlib.sha256(SRC.read_bytes()).hexdigest()==EXPECTED_SOURCE_SHA
 if os.environ.get('D1_RESULTS_DIR'):
@@ -91,7 +94,7 @@ if os.environ.get('D1_RESULTS_DIR'):
 else:
  (ROOT/'reruns').mkdir(exist_ok=True)
  OUT=Path(tempfile.mkdtemp(prefix='enumeration-',dir=ROOT/'reruns'))
-source=SRC.read_text();digest=EXPECTED_SOURCE_SHA
+source=SRC.read_text(encoding='utf-8');digest=EXPECTED_SOURCE_SHA
 checks=[]; results={}
 def ck(name,condition,evidence=None):
     assert condition,name
@@ -309,7 +312,7 @@ ck('retained alpha and loss',alpha_min>1 and F(9999,10000)*alpha_min**2>1)
 ck('retained direct-four first contribution',F(169)/(16**6*k*3**4)<F(1,10000))
 large=3**5*F(9999,10000)*F(200,19)**2*(F(1,8)-mu/81)**2
 ck('K400 exact value',large==F(16405041495117,40000000000)>400,large)
-results.update({'source':'data/article.txt','source_sha256':digest,'assertions':len(checks),'checks':checks,'outcome':'PASS'})
+results.update({'source':'data/article.tex','source_sha256':digest,'assertions':len(checks),'checks':checks,'outcome':'PASS'})
 (OUT/'structural_checks.json').write_text(json.dumps(results,indent=2)+'\n')
 print('PASS',len(checks),'exact assertions')
 print('Regular-tail enumeration: 90 pairs,118 triples,16 candidates,6 orbits,0 extensions')

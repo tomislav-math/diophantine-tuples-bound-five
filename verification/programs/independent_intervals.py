@@ -6,19 +6,28 @@ all-large overlap chain, five one-small-entry regions, all 41 fixed-pair
 certificates, and all 56 fixed-triple cutoffs plus (1,3,8). No result cache or
 other verification program is imported.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from fractions import Fraction as F
 from math import comb, isqrt
 from collections import defaultdict
 import re, hashlib, json, os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-source=ROOT/'data/article.txt'
+source=ROOT/'data/article.tex'
 source_bytes=source.read_bytes()
 EXPECTED='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert hashlib.sha256(source_bytes).hexdigest()==EXPECTED
 s=source_bytes.decode('utf-8')
-RESULTS=Path(os.environ.get('D1_RESULTS_DIR',ROOT/'results'))
-RESULTS.mkdir(parents=True,exist_ok=True)
+import tempfile
+if os.environ.get('D1_RESULTS_DIR'):
+    RESULTS = Path(os.environ['D1_RESULTS_DIR'])
+    RESULTS.mkdir(parents=True, exist_ok=True)
+else:
+    (ROOT/'reruns').mkdir(exist_ok=True)
+    RESULTS = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
+    print('Results directory:', RESULTS)
 report=dict(status='PASS',article_sha256=EXPECTED,uniform_coefficients=[],regions=[],fixed_pair_coefficients=[],fixed_pair_overlaps=[],fixed_triple_cutoffs=[])
 
 def binom(x,k):

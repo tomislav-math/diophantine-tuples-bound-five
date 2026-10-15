@@ -46,7 +46,7 @@ def main():
     if sys.flags.optimize:
         parser.error('Do not use -O or -OO, because the checks use assertions.')
     selected = [row for row in JOBS if args.only is None or row[0] == args.only]
-    source = ROOT / 'data/article.txt'
+    source = ROOT / 'data/article.tex'
     expected = '9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
     if digest(source) != expected:
         raise SystemExit('The article input does not match the dated paper.')

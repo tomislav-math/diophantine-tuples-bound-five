@@ -1,23 +1,23 @@
 {
   "status": "PASS",
   "all_checks_run": true,
-  "started_utc": "2026-10-15T19:54:41.350759+00:00",
-  "finished_utc": "2026-10-15T19:57:21.321443+00:00",
+  "started_utc": "2026-10-15T20:13:45.053551+00:00",
+  "finished_utc": "2026-10-15T20:16:25.473457+00:00",
   "python": "3.12.14",
   "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
   "article_sha256": "9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432",
-  "runner_sha256": "a28f4b2b82ca63f343197483e35496ad489f332604ac3b808d5e3f50197a2ac6",
+  "runner_sha256": "97b67acf99ee318b42f2d6a720fd6262b4372fe5abd089ddfb8842be052f1de1",
   "checks": [
     {
       "id": "01_structural",
       "description": "Structural identities and the finite tail",
       "program": "programs/structural_checks.py",
       "arguments": [],
-      "program_sha256": "5d6b5953ee7e661f03efad9bfcf6c305ba1bd6c7abdb2bdbab2d71601ae2d786",
+      "program_sha256": "40ad320a736826fd8bbbe9ce183fc9ca820d29e83387af8ab9582c49d79f4bfb",
       "program_unchanged_during_run": true,
       "output": "01_structural.txt",
       "exit_code": 0,
-      "seconds": 0.068,
+      "seconds": 0.06,
       "status": "PASS"
     },
     {
@@ -25,11 +25,11 @@
       "description": "Explicit growth and interpolation constants",
       "program": "programs/gap_bounds.py",
       "arguments": [],
-      "program_sha256": "e955ea6e190f9c4aa902e3657ce101bafd31dd48fd308f32913d1bcfc2745352",
+      "program_sha256": "ae7ecbf48ff15af622dd5c49636d2154beff5bca8489e84b200057f8e27f7f7e",
       "program_unchanged_during_run": true,
       "output": "02_gap_bounds.txt",
       "exit_code": 0,
-      "seconds": 0.036,
+      "seconds": 0.034,
       "status": "PASS"
     },
     {
@@ -37,11 +37,11 @@
       "description": "Approximation polynomials and coefficient tables",
       "program": "programs/approximation_polynomials.py",
       "arguments": [],
-      "program_sha256": "1af13f9fcb0defd2d2df586f722a3b7e369211b7179c6bfc7dcf6512a30f7221",
+      "program_sha256": "09bd9dd99c1b113f3038d475c4c178e66dfa8c94b9c1c3040bd13b258e178ab9",
       "program_unchanged_during_run": true,
       "output": "03_approximation_polynomials.txt",
       "exit_code": 0,
-      "seconds": 5.947,
+      "seconds": 6.17,
       "status": "PASS"
     },
     {
@@ -49,7 +49,7 @@
       "description": "Root-transfer and normalization estimates",
       "program": "programs/approximation_bounds.py",
       "arguments": [],
-      "program_sha256": "e7405447e33d72b1ba69ea06fc8b47691211fc48e0b3a0921077dcb80d96144f",
+      "program_sha256": "c3055a5379bacec2cab47aaf0bd8865898b35486e2b375303d2119fb1bc28660",
       "program_unchanged_during_run": true,
       "output": "04_approximation_bounds.txt",
       "exit_code": 0,
@@ -61,11 +61,11 @@
       "description": "Constants for the small-element cases",
       "program": "programs/small_element_bounds.py",
       "arguments": [],
-      "program_sha256": "d6017733e321bacfa2fca328b63eff89180f1d45bfff0a692735ed8defbaff26",
+      "program_sha256": "f12aa434281bbd385a9cdf865adfd905fb776e8e6a0b0604e127de3ebbf3dd73",
       "program_unchanged_during_run": true,
       "output": "05_small_element_bounds.txt",
       "exit_code": 0,
-      "seconds": 0.035,
+      "seconds": 0.03,
       "status": "PASS"
     },
     {
@@ -75,11 +75,11 @@
       "arguments": [
         "triples"
       ],
-      "program_sha256": "4156ba50f4c8f070af8bce1c0151a5a7340f00e93062b699ac3ed0715704c4ef",
+      "program_sha256": "9ab485ccb9ef99c39d19abdb01d010c9583c4fa413dc47f84dca1d0410f9c178",
       "program_unchanged_during_run": true,
       "output": "06_small_triples.txt",
       "exit_code": 0,
-      "seconds": 0.131,
+      "seconds": 0.126,
       "status": "PASS"
     },
     {
@@ -89,11 +89,11 @@
       "arguments": [
         "pairs"
       ],
-      "program_sha256": "4156ba50f4c8f070af8bce1c0151a5a7340f00e93062b699ac3ed0715704c4ef",
+      "program_sha256": "9ab485ccb9ef99c39d19abdb01d010c9583c4fa413dc47f84dca1d0410f9c178",
       "program_unchanged_during_run": true,
       "output": "07_pair_graphs.txt",
       "exit_code": 0,
-      "seconds": 148.308,
+      "seconds": 148.25,
       "status": "PASS"
     },
     {
@@ -103,11 +103,11 @@
       "arguments": [
         "pell"
       ],
-      "program_sha256": "4156ba50f4c8f070af8bce1c0151a5a7340f00e93062b699ac3ed0715704c4ef",
+      "program_sha256": "9ab485ccb9ef99c39d19abdb01d010c9583c4fa413dc47f84dca1d0410f9c178",
       "program_unchanged_during_run": true,
       "output": "08_pell_graphs.txt",
       "exit_code": 0,
-      "seconds": 3.624,
+      "seconds": 3.696,
       "status": "PASS"
     },
     {
@@ -115,11 +115,11 @@
       "description": "First pairs, third elements and cutoffs",
       "program": "programs/one_small_element.py",
       "arguments": [],
-      "program_sha256": "48842980c3acf5e5cbd584556781fceb8fb3a53b93481510778769c7bc557e00",
+      "program_sha256": "497d2976d51ce9b444eb1a0e08eb3955ea0f4580bc80fdd6a0116b1dfc310425",
       "program_unchanged_during_run": true,
       "output": "09_one_small_element.txt",
       "exit_code": 0,
-      "seconds": 0.402,
+      "seconds": 0.398,
       "status": "PASS"
     },
     {
@@ -127,11 +127,11 @@
       "description": "The interval chain with no small elements",
       "program": "programs/interval_overlaps.py",
       "arguments": [],
-      "program_sha256": "d7bb046454b47ba2cdd793bc5c777dfcf97cf561b7cd5bcb01add4c6638dfdd5",
+      "program_sha256": "86059582f81aaab809d0da1b9f314c50893c50343bd872fb70eda71da854b9a5",
       "program_unchanged_during_run": true,
       "output": "10_interval_overlaps.txt",
       "exit_code": 0,
-      "seconds": 0.035,
+      "seconds": 0.041,
       "status": "PASS"
     },
     {
@@ -139,11 +139,11 @@
       "description": "Independent check of the remaining interval chains",
       "program": "programs/independent_intervals.py",
       "arguments": [],
-      "program_sha256": "f7df625252b2cad0ed8a6f5db3159c5124f76962de1ed278d247f6a8a39d162e",
+      "program_sha256": "31ce3fa07027a32b3f1bf75e28c41b85b59af88ffd1a2612162e2273920b541b",
       "program_unchanged_during_run": true,
       "output": "11_independent_intervals.txt",
       "exit_code": 0,
-      "seconds": 1.327,
+      "seconds": 1.557,
       "status": "PASS"
     }
   ]

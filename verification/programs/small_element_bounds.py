@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Exact inequalities and polynomial identities for the small-element cases."""
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from pathlib import Path
 from fractions import Fraction as F
 from math import prod
 import hashlib,json,os,tempfile
 ROOT=Path(__file__).resolve().parents[1]
-SRC=ROOT/'data/article.txt'
+SRC=ROOT/'data/article.tex'
 EXPECTED_SOURCE_SHA='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert hashlib.sha256(SRC.read_bytes()).hexdigest()==EXPECTED_SOURCE_SHA
 if os.environ.get('D1_RESULTS_DIR'):
@@ -43,10 +46,10 @@ check('T zero F3 bound',F(1,4)*F(1000,999)**3<F(1,3),F(1,4)*F(1000,999)**3)
 check('T zero coefficient1250',F(2,5)*5**5==1250,1250)
 check('g72',g(72)<549,g(72))
 M=10**8; C=10**100
-check('bounded ST first term',30*M*M/C<F(1,2),F(30*M*M,C))
+check('bounded ST first term',F(30*M*M,C)<F(1,2),F(30*M*M,C))
 check('bounded ST first lower weakened',F(C**5,36*M*M)-F(1,C)>F(C**5,100*M*M),F(1,36)-F(1,100))
 check('bounded ST direct-four guard',F(C**5,100*M*M)>max(1000*C,17*9*M*M*C**3),F(C*C,1700*9*M**4))
-check('bounded ST second term',54*M**5/C<F(1,2),F(54*M**5,C))
+check('bounded ST second term',F(78*M**5,C)<F(1,2),F(78*M**5,C))
 check('bounded ST second lower weakened',F(625*C**7,2401*M**6)-F(1,C)>F(C**7,100*M**6),F(625,2401)-F(1,100))
 check('bounded ST ordinary lower factor',F(512,81)*608**4*3**6<10**15,F(512,81)*608**4*3**6)
 check('bounded ST ordinary upper denominator',2*28**4*F(10,81)**2*3**4<10**7,2*28**4*F(10,81)**2*3**4)

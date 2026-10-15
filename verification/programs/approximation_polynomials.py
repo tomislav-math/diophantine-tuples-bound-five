@@ -3,19 +3,28 @@
 
 Run from any directory with Python 3.10 or later. No third-party packages are
 required. The article input and current printed tables are checked directly.
-Results are written under D1_RESULTS_DIR, or to ../results by default.
+Results are written under D1_RESULTS_DIR, or to a new directory under ../reruns by default.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from fractions import Fraction as F
 from itertools import permutations
 from pathlib import Path
 from math import factorial, comb, isqrt
 import hashlib, json, re, os, time
 ROOT=Path(__file__).resolve().parents[1]
-SOURCE=ROOT/'data/article.txt'
-RESULTS=Path(os.environ.get('D1_RESULTS_DIR', str(ROOT/'results')))
-RESULTS.mkdir(parents=True, exist_ok=True)
+SOURCE=ROOT/'data/article.tex'
+import tempfile
+if os.environ.get('D1_RESULTS_DIR'):
+    RESULTS = Path(os.environ['D1_RESULTS_DIR'])
+    RESULTS.mkdir(parents=True, exist_ok=True)
+else:
+    (ROOT/'reruns').mkdir(exist_ok=True)
+    RESULTS = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
+    print('Results directory:', RESULTS)
 START=time.monotonic()
-TEXT=SOURCE.read_text()
+TEXT=SOURCE.read_text(encoding='utf-8')
 SHA=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
 EXPECTED='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert SHA==EXPECTED, 'The article input does not match this verification release'

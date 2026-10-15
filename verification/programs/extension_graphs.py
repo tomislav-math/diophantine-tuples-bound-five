@@ -3,13 +3,16 @@
 Doubled coordinates (u,v) mean (u+v sqrt(-d))/2. All decisions are exact.
 Run with triples, pairs, or pell to select the computation.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from pathlib import Path
 from math import isqrt
 from fractions import Fraction as F
 from itertools import combinations
 import json,re,sys,time,hashlib,os,tempfile,ast
 ROOT=Path(__file__).resolve().parents[1]
-SRC=ROOT/'data/article.txt'
+SRC=ROOT/'data/article.tex'
 EXPECTED_SOURCE_SHA='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert hashlib.sha256(SRC.read_bytes()).hexdigest()==EXPECTED_SOURCE_SHA
 if os.environ.get('D1_RESULTS_DIR'):
@@ -17,7 +20,7 @@ if os.environ.get('D1_RESULTS_DIR'):
 else:
  (ROOT/'reruns').mkdir(exist_ok=True)
  OUT=Path(tempfile.mkdtemp(prefix='enumeration-',dir=ROOT/'reruns'))
-TEXT=SRC.read_text()
+TEXT=SRC.read_text(encoding='utf-8')
 ZERO=(0,0); ONE=(2,0)
 def squarefree(d): return all(d%(p*p) for p in range(2,isqrt(d)+1))
 def issq(n): return n>=0 and isqrt(n)**2==n

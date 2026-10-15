@@ -4,6 +4,9 @@
 Checks Section 5.5 and Proposition 6.1. Laurent monomials are compared
 symbolically, with exact rational coefficients. No earlier article is read.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from pathlib import Path
 from fractions import Fraction as F
 import hashlib
@@ -12,12 +15,18 @@ import re
 import os
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT/'data/article.txt'
-candidate = SOURCE.read_text()
+SOURCE = ROOT/'data/article.tex'
+candidate = SOURCE.read_text(encoding='utf-8')
 EXPECTED = '9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == EXPECTED
-RESULTS = Path(os.environ.get('D1_RESULTS_DIR',ROOT/'results'))
-RESULTS.mkdir(parents=True,exist_ok=True)
+import tempfile
+if os.environ.get('D1_RESULTS_DIR'):
+    RESULTS = Path(os.environ['D1_RESULTS_DIR'])
+    RESULTS.mkdir(parents=True, exist_ok=True)
+else:
+    (ROOT/'reruns').mkdir(exist_ok=True)
+    RESULTS = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
+    print('Results directory:', RESULTS)
 
 def table_at(marker):
     pos=candidate.index(marker)

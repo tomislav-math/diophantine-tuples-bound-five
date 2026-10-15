@@ -6,6 +6,9 @@ checks all five regions and all 41 fixed-pair certificates, and reconstructs
 all 56 triple cutoffs plus the separate (1,3,8) cutoff. No result cache is read.
 Python standard library only. Floating-point diagnostics are display only.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from fractions import Fraction as F
 from math import isqrt,comb
 from pathlib import Path
@@ -13,13 +16,19 @@ from itertools import permutations
 import json,re,hashlib,os
 
 ROOT=Path(__file__).resolve().parents[1]
-SOURCE=ROOT/'data/article.txt'
-TEX=SOURCE.read_text()
+SOURCE=ROOT/'data/article.tex'
+TEX=SOURCE.read_text(encoding='utf-8')
 SOURCE_HASH=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
 EXPECTED='9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert SOURCE_HASH==EXPECTED
-OUT=Path(os.environ.get('D1_RESULTS_DIR',ROOT/'results'))
-OUT.mkdir(parents=True,exist_ok=True)
+import tempfile
+if os.environ.get('D1_RESULTS_DIR'):
+    OUT = Path(os.environ['D1_RESULTS_DIR'])
+    OUT.mkdir(parents=True, exist_ok=True)
+else:
+    (ROOT/'reruns').mkdir(exist_ok=True)
+    OUT = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
+    print('Results directory:', OUT)
 COUNTER=0
 def require(x,msg):
     global COUNTER
@@ -261,7 +270,7 @@ def regions():
         require(min(qs)>margin,f'region margin {n}: {float(min(qs))}')
         require(F(G,105)*n**4*m**4>1,'tail')
         output.append({'norm_lower':int(n),'M':Mcalc,'quotients':[str(v) for v in qs],'minimum':str(min(qs)),'phase_upper':str(Fbound),'G_actual':str(H/Q0**2),'rho_actual':str(H/(kap*Fp))})
-        print('REGION',n,'M',Mcalc,'min quotient',float(min(qs)),'junction',qs.index(min(qs)),'Fp',float(Fbound),'Gactual',float(H/Q0**2),'rhoactual',float(H/(kap*Fp)))
+        print('REGION',n,'M',Mcalc,'min quotient',float(min(qs)),'junction',qs.index(min(qs))+1,'Fp',float(Fbound),'Gactual',float(H/Q0**2),'rhoactual',float(H/(kap*Fp)))
 
     return output
 

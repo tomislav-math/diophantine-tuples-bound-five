@@ -5,6 +5,9 @@ The ordinary determinant examples are finite exact checks. The all-orders
 identity is the theorem cited by the paper. All arithmetic uses Python's
 standard library, and no numerical floating-point approximation is used.
 """
+import sys
+if sys.flags.optimize:
+    raise SystemExit("Run without -O or -OO: the verification requires assertions.")
 from fractions import Fraction as F
 from itertools import product
 from pathlib import Path
@@ -14,9 +17,15 @@ import re
 import os
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / 'data/article.txt'
-RESULTS = Path(os.environ.get('D1_RESULTS_DIR', str(ROOT/'results')))
-RESULTS.mkdir(parents=True, exist_ok=True)
+SOURCE = ROOT / 'data/article.tex'
+import tempfile
+if os.environ.get('D1_RESULTS_DIR'):
+    RESULTS = Path(os.environ['D1_RESULTS_DIR'])
+    RESULTS.mkdir(parents=True, exist_ok=True)
+else:
+    (ROOT/'reruns').mkdir(exist_ok=True)
+    RESULTS = Path(tempfile.mkdtemp(prefix=Path(__file__).stem+'-', dir=ROOT/'reruns'))
+    print('Results directory:', RESULTS)
 SOURCE_HASH = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
 EXPECTED_HASH = '9cb6ed2154056e158d2c420012e94ef7c397c69d66c0fd9301a1bb52197dc432'
 assert SOURCE_HASH == EXPECTED_HASH, 'The article input does not match this verification release'
@@ -24,7 +33,7 @@ assert SOURCE_HASH == EXPECTED_HASH, 'The article input does not match this veri
 def normalized(value):
     return re.sub(r'\s+', ' ', value).strip()
 
-source_text = normalized(SOURCE.read_text())
+source_text = normalized(SOURCE.read_text(encoding='utf-8'))
 required = {
     'Bennett exact location': r'''This is the unnumbered determinant identity following (2.4) in
 \cite[\S2, p.~1721]{Bennett96}.''',
