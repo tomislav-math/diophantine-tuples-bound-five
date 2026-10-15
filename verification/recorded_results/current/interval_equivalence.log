@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "formal_endpoint_comparisons": 26,
+  "quotients": 15,
+  "minimum": {
+    "junction": "\\(N_{3,bs}\\)--\\(A_4\\)",
+    "exact": "7834457305497600/5386911336360281",
+    "decimal": 1.4543505204210447
+  },
+  "output": "/workspace/scratch/cae51110c84a/revision_v4/checks/interval_equivalence.json"
+}

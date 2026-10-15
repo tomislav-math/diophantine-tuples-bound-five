@@ -1,0 +1,7 @@
+{
+  "mode": "triples",
+  "passed": true,
+  "seconds": 0.12325838899414521,
+  "source_sha256": "66f5a580e2b08bdd369c1b38a557de20a586cf3cf9a06bb7d0b82d4304587c63",
+  "algorithm_origin": "Rebound independent v1 checker, same computational core"
+}

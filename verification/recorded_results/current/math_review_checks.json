@@ -1,0 +1,527 @@
+{
+  "status": "PASS",
+  "packet": "revision_v4/checkpoints/math_packet.tex",
+  "packet_sha256": "8675f3f4b0ed54cb387408844fe757fcd803f9cc01ac3ba294796b923c55881b",
+  "baseline": "output/D1_bound5-v3.tex",
+  "baseline_sha256": "a1119af75cf623411c678ea0e9b6e7dc9a3f59a931ee67384fc98be8d8373bd5",
+  "scoped_blocks": {
+    "lem:product-four": {
+      "sha256": "a6c08e2f377ce4e58d841d4f64bf11574a307eb46ab4e78166b1afb33e693e20",
+      "start_line": 282
+    },
+    "lem:interpolation-parameters": {
+      "sha256": "6f5e1d6d47b032d3ceb2f1f1a9d1ee2c78b87e3b2af4e54a59b69714c6ef68ae",
+      "start_line": 596
+    },
+    "lem:direct-four": {
+      "sha256": "48de7962859ca1742e081fc8449c04c40867d96608efc4ba659f09a20de6435f",
+      "start_line": 760
+    },
+    "lem:retained-gap": {
+      "sha256": "25301d58d61284dcc992f4016d1197699bb474dd6489b1f7c9ff710c66de6eb6",
+      "start_line": 792
+    },
+    "sm:bs7-cutoff": {
+      "sha256": "79ecd092dd8e2592252dc9128aab93e0b553ac37c401380d8897d729637be680",
+      "start_line": 2220
+    }
+  },
+  "text_changes": [
+    {
+      "kind": "replace",
+      "v3_lines": [
+        286,
+        286
+      ],
+      "packet_lines": [
+        286,
+        286
+      ],
+      "block": "lem:product-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        317,
+        318
+      ],
+      "packet_lines": [
+        317,
+        321
+      ],
+      "block": "lem:product-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        320,
+        321
+      ],
+      "packet_lines": [
+        323,
+        324
+      ],
+      "block": "lem:product-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        323,
+        329
+      ],
+      "packet_lines": [
+        326,
+        326
+      ],
+      "block": "lem:product-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        634,
+        635
+      ],
+      "packet_lines": [
+        631,
+        637
+      ],
+      "block": "lem:interpolation-parameters"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        762,
+        762
+      ],
+      "packet_lines": [
+        764,
+        764
+      ],
+      "block": "lem:direct-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        767,
+        779
+      ],
+      "packet_lines": [
+        769,
+        772
+      ],
+      "block": "lem:direct-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        791,
+        792
+      ],
+      "packet_lines": [
+        784,
+        785
+      ],
+      "block": "lem:direct-four"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        869,
+        869
+      ],
+      "packet_lines": [
+        862,
+        862
+      ],
+      "block": "lem:retained-gap"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        871,
+        872
+      ],
+      "packet_lines": [
+        864,
+        866
+      ],
+      "block": "lem:retained-gap"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        874,
+        875
+      ],
+      "packet_lines": [
+        868,
+        870
+      ],
+      "block": "lem:retained-gap"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        877,
+        879
+      ],
+      "packet_lines": [
+        872,
+        879
+      ],
+      "block": "lem:retained-gap"
+    },
+    {
+      "kind": "replace",
+      "v3_lines": [
+        2308,
+        2308
+      ],
+      "packet_lines": [
+        2308,
+        2308
+      ],
+      "block": "sm:bs7-cutoff"
+    }
+  ],
+  "checks": [
+    {
+      "name": "immutable packet SHA256",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: D>\\frac32ABC",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: \\|E\\|_2<11/96",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: s=59/96",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: h=155/96",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: D>6C",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: D>18",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:product-four: \\frac{18212679025}{27518828544}D^2<\\frac23D^2",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:interpolation-parameters: (1-w)^2(1+w)=(1-w)(1-w^2)",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:interpolation-parameters: (1-\\rho)(1-\\rho^2)\\le16P^3|f_3|",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:interpolation-parameters: \\le(1+\\rho)(1+\\rho^2)",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:interpolation-parameters: 45/1024\\le P^3|f_3|\\le85/1024",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:direct-four: \\frac{13BS^2T^3}{Z}+\\frac{49ST^2Z}{50AP^4}",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:direct-four: |\\Delta_4|\\le24BS^2T^3",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:direct-four: \\frac{24\\cdot101}{199}<13",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:direct-four: \\frac{2400u}{99}<\\frac{49}{50}",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:retained-gap: \\frac{18}{17}A^4B^2>1",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:retained-gap: C>A^2T^5/S^2>16BST",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:retained-gap: \\frac{169}{16^6kA^2B^4}<\\frac1{10000}",
+      "pass": true
+    },
+    {
+      "name": "source guard: lem:retained-gap: |\\sqrt{cd+1}|>(99/98)AC^4/(ST^2)",
+      "pass": true
+    },
+    {
+      "name": "source guard: sm:bs7-cutoff: \\frac{39M^5}{Z}+\\frac{49M^3Z}{50C^4}",
+      "pass": true
+    },
+    {
+      "name": "source guard: sm:bs7-cutoff: D>\\frac{C^7}{100M^6}=10^{-50}C^7",
+      "pass": true
+    },
+    {
+      "name": "exactly two direct-four theorem consumers",
+      "pass": true,
+      "lines": "[858, 2306]"
+    },
+    {
+      "name": "both consumers belong to reviewed lemmas",
+      "pass": true
+    },
+    {
+      "name": "stale altered formula absent: \\frac{9BS^2T^3}{Z}",
+      "pass": true
+    },
+    {
+      "name": "stale altered formula absent: \\frac{4ST^2Z}{5AP^4}",
+      "pass": true
+    },
+    {
+      "name": "stale altered formula absent: \\frac{27M^5}{Z}",
+      "pass": true
+    },
+    {
+      "name": "stale altered formula absent: \\frac{4M^3Z}{5C^4}",
+      "pass": true
+    },
+    {
+      "name": "stale altered formula absent: |\\Delta_4|\\le16BS^2T^3",
+      "pass": true
+    },
+    {
+      "name": "stale altered formula absent: \\frac{18}{17}A^3B^2",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 286",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 317",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 323",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 326",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 631",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 764",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 769",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 784",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 862",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 864",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 868",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 872",
+      "pass": true
+    },
+    {
+      "name": "diff contained in scoped block at packet line 2308",
+      "pass": true
+    },
+    {
+      "name": "Re square-root bounds sufficient for F entries",
+      "pass": true
+    },
+    {
+      "name": "first-row entry error",
+      "pass": true
+    },
+    {
+      "name": "remaining entry error",
+      "pass": true
+    },
+    {
+      "name": "majorant weighted row sums",
+      "pass": true
+    },
+    {
+      "name": "product-four exact determinant coefficient",
+      "pass": true,
+      "value": "18212679025/27518828544"
+    },
+    {
+      "name": "product-four implies D > (3/2)ABC",
+      "pass": true,
+      "margin": "133206671/27518828544"
+    },
+    {
+      "name": "product-five still may use older 1/8 majorant",
+      "pass": true
+    },
+    {
+      "name": "cutoff's unchanged 3/8 consequence remains implied",
+      "pass": true
+    },
+    {
+      "name": "f3 factorization",
+      "pass": true
+    },
+    {
+      "name": "f3 endpoint bounds",
+      "pass": true
+    },
+    {
+      "name": "f3 tail prefactor",
+      "pass": true
+    },
+    {
+      "name": "interpolation row H=32",
+      "pass": true,
+      "lower": "610119680/120943911",
+      "upper": "122023936/6879629"
+    },
+    {
+      "name": "interpolation row H=48",
+      "pass": true,
+      "lower": "2126295040/398301399",
+      "upper": "2126295040/142842001"
+    },
+    {
+      "name": "Vandermonde has 24 bounded monomials",
+      "pass": true
+    },
+    {
+      "name": "f4 tail prefactor",
+      "pass": true
+    },
+    {
+      "name": "direct-four positive F4 lower bound",
+      "pass": true,
+      "lower": "981637956826795993204799/25497753497625600000000000"
+    },
+    {
+      "name": "direct-four first coefficient",
+      "pass": true,
+      "value": "2424/199"
+    },
+    {
+      "name": "direct-four second coefficient",
+      "pass": true,
+      "value": "1010380812000000797599201/1051782331777056000000000"
+    },
+    {
+      "name": "direct-four zero-case lower bound unchanged",
+      "pass": true,
+      "value": "849925116587520000000000000/67695514404000053439146467"
+    },
+    {
+      "name": "direct-four zero-case upper bound unchanged",
+      "pass": true,
+      "value": "2549775349762560000000000000/195345953408532402647755001"
+    },
+    {
+      "name": "retained main coefficient exceeds one",
+      "pass": true,
+      "alpha_min": "132983/120000"
+    },
+    {
+      "name": "retained L3 nonvanishing margin",
+      "pass": true
+    },
+    {
+      "name": "retained corrected A^4 nonvanishing minimum",
+      "pass": true
+    },
+    {
+      "name": "retained C > 16BST from T > 2ABS",
+      "pass": true,
+      "minimum_ratio": "81"
+    },
+    {
+      "name": "retained L4 first summand < 1/100",
+      "pass": true,
+      "squared_bound": "21125/169826844672"
+    },
+    {
+      "name": "retained resulting Z factor",
+      "pass": true
+    },
+    {
+      "name": "retained subtract-one loss harmless",
+      "pass": true,
+      "minimum_excess": "49250000/2401"
+    },
+    {
+      "name": "cutoff P and nonvanishing hypotheses",
+      "pass": true
+    },
+    {
+      "name": "cutoff preliminary first summand < 1/2",
+      "pass": true
+    },
+    {
+      "name": "cutoff preliminary D lower bound after subtracting one",
+      "pass": true
+    },
+    {
+      "name": "cutoff preliminary D > 1000C",
+      "pass": true
+    },
+    {
+      "name": "cutoff preliminary D > 17ABSTC^3",
+      "pass": true
+    },
+    {
+      "name": "cutoff direct-four coefficient substitution",
+      "pass": true
+    },
+    {
+      "name": "cutoff revised first summand < 1/2",
+      "pass": true
+    },
+    {
+      "name": "cutoff revised Z coefficient",
+      "pass": true
+    },
+    {
+      "name": "cutoff revised D bound survives subtract-one",
+      "pass": true,
+      "coefficient_margin": "60099/240100"
+    },
+    {
+      "name": "cutoff exponent identity",
+      "pass": true
+    }
+  ],
+  "limitations": "Scoped exact controls; human proof reconstruction is in math_review.txt. No broad theorem audit."
+}

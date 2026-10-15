@@ -1,0 +1,130 @@
+{
+  "hash": "66f5a580e2b08bdd369c1b38a557de20a586cf3cf9a06bb7d0b82d4304587c63",
+  "rows": [
+    {
+      "row": 1,
+      "d": 1,
+      "orbit": 2,
+      "pair_count": 61,
+      "extensions": [
+        [
+          120,
+          0
+        ]
+      ],
+      "initial_count": 3
+    },
+    {
+      "row": 2,
+      "d": 1,
+      "orbit": 2,
+      "pair_count": 89,
+      "extensions": [
+        [
+          0,
+          30
+        ]
+      ],
+      "initial_count": 5
+    },
+    {
+      "row": 3,
+      "d": 1,
+      "orbit": 2,
+      "pair_count": 64,
+      "extensions": [
+        [
+          0,
+          -80
+        ]
+      ],
+      "initial_count": 3
+    },
+    {
+      "row": 4,
+      "d": 1,
+      "orbit": 4,
+      "pair_count": 105,
+      "extensions": [
+        [
+          8,
+          24
+        ]
+      ],
+      "initial_count": 5
+    },
+    {
+      "row": 5,
+      "d": 2,
+      "orbit": 2,
+      "pair_count": 71,
+      "extensions": [
+        [
+          -48,
+          0
+        ]
+      ],
+      "initial_count": 4
+    },
+    {
+      "row": 6,
+      "d": 3,
+      "orbit": 2,
+      "pair_count": 112,
+      "extensions": [
+        [
+          16,
+          0
+        ]
+      ],
+      "initial_count": 5
+    },
+    {
+      "row": 7,
+      "d": 3,
+      "orbit": 4,
+      "pair_count": 112,
+      "extensions": [
+        [
+          -24,
+          8
+        ]
+      ],
+      "initial_count": 5
+    },
+    {
+      "row": 8,
+      "d": 3,
+      "orbit": 2,
+      "pair_count": 57,
+      "extensions": [],
+      "initial_count": 4
+    },
+    {
+      "row": 9,
+      "d": 7,
+      "orbit": 2,
+      "pair_count": 83,
+      "extensions": [
+        [
+          48,
+          0
+        ]
+      ],
+      "initial_count": 4
+    },
+    {
+      "row": 10,
+      "d": 7,
+      "orbit": 2,
+      "pair_count": 55,
+      "extensions": [
+        [
+          0,
+          -64
+        ]
+      ],
+      "initial_count": 3
+    }
+  ]
+}

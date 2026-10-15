@@ -1,0 +1,251 @@
+{
+  "base_sha256": "a1119af75cf623411c678ea0e9b6e7dc9a3f59a931ee67384fc98be8d8373bd5",
+  "candidate": "revision_v4/checkpoints/integrated.tex",
+  "candidate_sha256": "776933702a89ba3ee6bee39045f3f1643fd899541586cc2acbcc420b1fa03ef3",
+  "common_endpoint_table_unchanged": true,
+  "common_overlap_table_unchanged": true,
+  "formal_endpoint_comparisons": [
+    {
+      "row": "Q",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "Q",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "N_2",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "N_2",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "P",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "P",
+      "endpoint": "l",
+      "branch": 1,
+      "j": 4
+    },
+    {
+      "row": "P",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "P",
+      "endpoint": "u",
+      "branch": 1,
+      "j": 4
+    },
+    {
+      "row": "A_3",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "A_3",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "M",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "M",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "N_3",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "N_3",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "N_{3,bs}",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "N_{3,bs}",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "A_4",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "A_4",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "A_5",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "A_5",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "O_j",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "O_j",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 5
+    },
+    {
+      "row": "O_j",
+      "endpoint": "l",
+      "branch": 0,
+      "j": 6
+    },
+    {
+      "row": "O_j",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 4
+    },
+    {
+      "row": "O_j",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 5
+    },
+    {
+      "row": "O_j",
+      "endpoint": "u",
+      "branch": 0,
+      "j": 6
+    }
+  ],
+  "section6_source_parsed_quotients": [
+    {
+      "junction": "START--\\(Q\\)",
+      "exact": "111549206556792/378125",
+      "decimal": 295006166.1006069
+    },
+    {
+      "junction": "\\(Q\\)--\\(N_2\\)",
+      "exact": "255936/4001",
+      "decimal": 63.9680079980005
+    },
+    {
+      "junction": "\\(N_2\\)--\\(P\\), \\(BS^3\\)",
+      "exact": "125492857376391/400100",
+      "decimal": 313653730.00847536
+    },
+    {
+      "junction": "\\(N_2\\)--\\(P\\), \\(B^3S^2\\)",
+      "exact": "13943650819599/400100",
+      "decimal": 34850414.44538616
+    },
+    {
+      "junction": "\\(P\\)--\\(N_3\\)",
+      "exact": "1721438372790000/7630551161",
+      "decimal": 225598.16931551794
+    },
+    {
+      "junction": "\\(P\\)--\\(A_3\\)",
+      "exact": "68857534911600/91226801",
+      "decimal": 754795.0180956143
+    },
+    {
+      "junction": "\\(A_3\\)--\\(M\\)",
+      "exact": "759664127668260285549984375/1635155310656",
+      "decimal": 464582246541152.3
+    },
+    {
+      "junction": "\\(M\\)--\\(N_3\\)",
+      "exact": "984524709458065330072779750000/18320953337561",
+      "decimal": 5.373763533580024e+16
+    },
+    {
+      "junction": "\\(N_3\\)--\\(A_4\\)",
+      "exact": "4163551824890950041600/5386911336360281",
+      "decimal": 772901.4949230804
+    },
+    {
+      "junction": "\\(N_3\\)--\\(N_{3,bs}\\)",
+      "exact": "28676360604019453098510974976000000/373897006889",
+      "decimal": 7.669588168843698e+22
+    },
+    {
+      "junction": "\\(N_{3,bs}\\)--\\(A_4\\)",
+      "exact": "7834457305497600/5386911336360281",
+      "decimal": 1.4543505204210447
+    },
+    {
+      "junction": "\\(A_4\\)--\\(O_4\\)",
+      "exact": "4065968578995068400000000/1130183471249",
+      "decimal": 3597618158847.8228
+    },
+    {
+      "junction": "\\(O_4\\)--\\(A_5\\)",
+      "exact": "279726730476641517802881024/4308121178068241",
+      "decimal": 64930098043.82309
+    },
+    {
+      "junction": "\\(A_5\\)--\\(O_5\\)",
+      "exact": "13065666800206363318009062973440000000000/136752200021129",
+      "decimal": 9.554264427327416e+25
+    },
+    {
+      "junction": "\\(O_5\\)--\\(O_6\\)",
+      "exact": "11470544241607781239404389990400/55378990091201",
+      "decimal": 2.0712808635039197e+17
+    }
+  ],
+  "minimum": {
+    "junction": "\\(N_{3,bs}\\)--\\(A_4\\)",
+    "exact": "7834457305497600/5386911336360281",
+    "decimal": 1.4543505204210447
+  },
+  "ordinary_tail_lower_bound": "14171760/7",
+  "specialized_cutoff_formula_and_tables_unchanged": true,
+  "unrelated_735_count_preserved": true,
+  "all_checks_passed": true
+}

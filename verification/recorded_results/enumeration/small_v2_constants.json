@@ -1,0 +1,302 @@
+{
+  "source_sha256": "5edcf8777371c4ad8979f122022d3119a8ae2de75d9674b336df994bba860b70",
+  "checks": [
+    {
+      "label": "crossblock geometric denominator",
+      "evidence": "638/729"
+    },
+    {
+      "label": "crossblock final constant",
+      "evidence": "49/324"
+    },
+    {
+      "label": "order-one determinant factor",
+      "evidence": "-1440"
+    },
+    {
+      "label": "four-root coefficient 10300",
+      "evidence": "513922376968/518017578125"
+    },
+    {
+      "label": "four-root residual 193",
+      "evidence": "4096000000000000000000000/4109893102954214781300639"
+    },
+    {
+      "label": "six-V gap",
+      "evidence": "3/4"
+    },
+    {
+      "label": "six-V lower 101",
+      "evidence": "400000/3999"
+    },
+    {
+      "label": "six-V upper 2/5",
+      "evidence": "16000/36009"
+    },
+    {
+      "label": "small h",
+      "evidence": "3434239577805805268237746449/9765625000000000000000000000"
+    },
+    {
+      "label": "small r",
+      "evidence": "295245/524288"
+    },
+    {
+      "label": "small u",
+      "evidence": "61208981507435157/100000000000000000"
+    },
+    {
+      "label": "unit h",
+      "evidence": "1666976484396337359195972108050766529167300667828951014331365469362133029070327866633033064632426906380900918045096212631206355582001/7888609052210118054117285652827862296732064351090230047702789306640625000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "unit r",
+      "evidence": "125/128"
+    },
+    {
+      "label": "unit u",
+      "evidence": "2051408343655439691143849680699420747268758089952066697429548746234691077371788129716118053401690963383842035753080024324806864431546203030378740521316009486389579884061119299949020135601962752931118830934035255989986353246144188781752322001/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "two-small envelope coefficients",
+      "evidence": "(42, Fraction(4047, 25))"
+    },
+    {
+      "label": "S large fourth guard",
+      "evidence": "1406250000000000"
+    },
+    {
+      "label": "S large DC guard",
+      "evidence": "468750000000000/707"
+    },
+    {
+      "label": "S lower constant",
+      "evidence": "243/81920"
+    },
+    {
+      "label": "S cutoff at 49",
+      "evidence": "1/375"
+    },
+    {
+      "label": "g8",
+      "evidence": "13887/100"
+    },
+    {
+      "label": "g49",
+      "evidence": "145874/375"
+    },
+    {
+      "label": "general-three upper 37",
+      "evidence": "36009/1000"
+    },
+    {
+      "label": "T nonzero contradiction at72",
+      "evidence": "373/1700"
+    },
+    {
+      "label": "T zero F3 bound",
+      "evidence": "250000000/997002999"
+    },
+    {
+      "label": "T zero coefficient1250",
+      "evidence": "1250"
+    },
+    {
+      "label": "g72",
+      "evidence": "932927/1700"
+    },
+    {
+      "label": "bounded ST first term",
+      "evidence": "3/100000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "bounded ST first lower weakened",
+      "evidence": "4/225"
+    },
+    {
+      "label": "bounded ST direct-four guard",
+      "evidence": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/153"
+    },
+    {
+      "label": "bounded ST second term",
+      "evidence": "27/500000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "bounded ST second lower weakened",
+      "evidence": "609/1600"
+    },
+    {
+      "label": "bounded ST ordinary lower factor",
+      "evidence": "629689987104768"
+    },
+    {
+      "label": "bounded ST ordinary upper denominator",
+      "evidence": "122931200/81"
+    },
+    {
+      "label": "bounded ST overlap",
+      "evidence": "10000000"
+    },
+    {
+      "label": "bounded ST upper envelope",
+      "evidence": "35269/800"
+    },
+    {
+      "label": "bounded ST upper over envelope",
+      "evidence": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "descent lambda contradiction",
+      "evidence": "24/25"
+    },
+    {
+      "label": "descent additive26",
+      "evidence": "100/49"
+    },
+    {
+      "label": "descent strict decrease33",
+      "evidence": "163/5"
+    },
+    {
+      "label": "unit cubic hbound",
+      "evidence": "9/40"
+    },
+    {
+      "label": "unit cubic constant",
+      "evidence": "59049/50000"
+    },
+    {
+      "label": "unit opposite pair contradiction",
+      "evidence": "203"
+    },
+    {
+      "label": "unit cubic iterated denominator",
+      "evidence": "8192"
+    },
+    {
+      "label": "unit continuous parameters",
+      "evidence": "617/25"
+    },
+    {
+      "label": "unit continuous residual",
+      "evidence": "118401/2500"
+    },
+    {
+      "label": "unit cutoff s4",
+      "evidence": "5374/197"
+    },
+    {
+      "label": "small anchor F3 bound",
+      "evidence": "1000000000/997002999"
+    },
+    {
+      "label": "small anchor rationalization",
+      "evidence": "250/3"
+    },
+    {
+      "label": "small anchor contradiction E<=4V",
+      "evidence": "270027/1000000"
+    },
+    {
+      "label": "small anchor nonzero E lower",
+      "evidence": "319/8100"
+    },
+    {
+      "label": "small anchor final growth",
+      "evidence": "True"
+    },
+    {
+      "label": "three-small envelope h",
+      "evidence": "903168"
+    },
+    {
+      "label": "three-small envelope u",
+      "evidence": "2024"
+    },
+    {
+      "label": "three-small envelope r",
+      "evidence": "2/15"
+    },
+    {
+      "label": "three-small envelope at40",
+      "evidence": "274/5"
+    },
+    {
+      "label": "three-small window lower",
+      "evidence": "27106089191392545865728"
+    },
+    {
+      "label": "three-small window upper",
+      "evidence": "89616844800"
+    },
+    {
+      "label": "four-fixed window lower",
+      "evidence": "16039344308989099600151411132812500000"
+    },
+    {
+      "label": "four-fixed window upper",
+      "evidence": "9622854264658760143769531250"
+    },
+    {
+      "label": "three-large first lower",
+      "evidence": "1/2000"
+    },
+    {
+      "label": "three-large second lower",
+      "evidence": "125/4"
+    },
+    {
+      "label": "three-large lower versus upper",
+      "evidence": "500000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "two-vanishing U bound",
+      "evidence": "6643012500"
+    },
+    {
+      "label": "four-anchor nonvanishing guard",
+      "evidence": "24480"
+    },
+    {
+      "label": "four-anchor coefficient",
+      "evidence": "(108375, 255)"
+    },
+    {
+      "label": "four-anchor first term",
+      "evidence": "867/40000000000000000000000000000000000000"
+    },
+    {
+      "label": "four-anchor lower W",
+      "evidence": "7399/2601000000"
+    },
+    {
+      "label": "four-anchor lower above window",
+      "evidence": "1000000000000000000000000000000000000"
+    },
+    {
+      "label": "four-anchor windows overlap",
+      "evidence": "100000000000"
+    },
+    {
+      "label": "three-small upper contradiction",
+      "evidence": "1000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "mutation az+1",
+      "evidence": "{}"
+    },
+    {
+      "label": "mutation bz+1",
+      "evidence": "{}"
+    },
+    {
+      "label": "mutation inverse",
+      "evidence": "{}"
+    },
+    {
+      "label": "opposite-pair factorization",
+      "evidence": "{}"
+    }
+  ],
+  "algorithm_origin": "Rebound independent v1 constants, actual v2 rerun"
+}

@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "baseline_sha256": "a1119af75cf623411c678ea0e9b6e7dc9a3f59a931ee67384fc98be8d8373bd5",
+  "source": "/workspace/scratch/cae51110c84a/revision_v4/D1_bound5-v4.tex",
+  "source_sha256": "776933702a89ba3ee6bee39045f3f1643fd899541586cc2acbcc420b1fa03ef3",
+  "release_hash_matches": true,
+  "source_controls": {
+    "Bennett exact location": true,
+    "Bennett coefficient equality": true,
+    "Bennett term normalization": true,
+    "Bennett extra pole": true,
+    "Bennett zero node guard": true,
+    "root nonzero guards": true,
+    "root factorization": true,
+    "root sign choice": true,
+    "root bound chain": true,
+    "root proof reuse": true,
+    "root basic constant": true,
+    "root sharper constant": true,
+    "root zero-root allowance": true,
+    "R2 simplified expression": true
+  },
+  "old_R2_expression_removed": true,
+  "duplicated_root_proof_removed": true,
+  "Bennett_source": "https://personal.math.ubc.ca/~bennett/B-Binom.pdf",
+  "Bennett_location": "Section 2, p. 1721, unnumbered determinant identity following (2.4)",
+  "Bennett_samples": [
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 1,
+      "N": 101,
+      "determinant": "3/40387799200",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 2,
+      "N": 101,
+      "determinant": "-9/521975783750246604800",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 3,
+      "N": 101,
+      "determinant": "3/430233737578930261737635840000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 4,
+      "N": 101,
+      "determinant": "-3861/1112076403353813091959237080873172992000000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        2,
+        7
+      ],
+      "k": 5,
+      "N": 101,
+      "determinant": "2166021/1122857961842800242809520045187496786693980160000000000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3,
+        7
+      ],
+      "k": 1,
+      "N": 103,
+      "determinant": "1/11435889835238400",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3,
+        7
+      ],
+      "k": 2,
+      "N": 103,
+      "determinant": "-1/11956989835310533439852327731200",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3,
+        7
+      ],
+      "k": 3,
+      "N": 103,
+      "determinant": "143/949358082851297535823525785576406154565648384000",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        -3,
+        5
+      ],
+      "k": 1,
+      "N": -101,
+      "determinant": "-1/39563558400",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        -3,
+        5
+      ],
+      "k": 2,
+      "N": -101,
+      "determinant": "-1/500888049046467379200",
+      "normalization_matches": true
+    },
+    {
+      "nodes": [
+        0,
+        -3,
+        5
+      ],
+      "k": 3,
+      "N": -101,
+      "determinant": "-49/178352222222807788236067307520000",
+      "normalization_matches": true
+    }
+  ],
+  "root_transfer_cleared_polynomial_identity": true,
+  "root_transfer_constants_squared": {
+    "basic": "1001/640",
+    "sharper": "40441401/40000000"
+  },
+  "R2_cancellation": true,
+  "scope": "Exact finite normalization/determinant checks and polynomial identity. The cited theorem supplies the all-orders determinant. Analytic sign and nonzero arguments were reviewed in the report."
+}

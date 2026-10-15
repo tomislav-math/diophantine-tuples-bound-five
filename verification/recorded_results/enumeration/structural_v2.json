@@ -1,0 +1,1426 @@
+{
+  "tail_enumeration": {
+    "counts": [
+      90,
+      118,
+      16,
+      0
+    ],
+    "per_field": [
+      {
+        "d": 1,
+        "counts": [
+          12,
+          18,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 2,
+        "counts": [
+          11,
+          16,
+          8,
+          0
+        ]
+      },
+      {
+        "d": 3,
+        "counts": [
+          6,
+          8,
+          2,
+          0
+        ]
+      },
+      {
+        "d": 5,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 6,
+        "counts": [
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "d": 7,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 10,
+        "counts": [
+          6,
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 11,
+        "counts": [
+          10,
+          12,
+          2,
+          0
+        ]
+      },
+      {
+        "d": 13,
+        "counts": [
+          2,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 14,
+        "counts": [
+          4,
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 15,
+        "counts": [
+          1,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 19,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 23,
+        "counts": [
+          2,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 31,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 35,
+        "counts": [
+          14,
+          18,
+          2,
+          0
+        ]
+      },
+      {
+        "d": 39,
+        "counts": [
+          4,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 43,
+        "counts": [
+          4,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 47,
+        "counts": [
+          4,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 51,
+        "counts": [
+          6,
+          8,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 55,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "d": 59,
+        "counts": [
+          2,
+          4,
+          0,
+          0
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "d": 2,
+        "a": [
+          -1,
+          0
+        ],
+        "b": [
+          -3,
+          0
+        ],
+        "c": [
+          3,
+          0
+        ],
+        "t": [
+          0,
+          -4
+        ],
+        "at_plus_1": [
+          1,
+          4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          -3,
+          0
+        ],
+        "c": [
+          3,
+          0
+        ],
+        "t": [
+          0,
+          -4
+        ],
+        "at_plus_1": [
+          1,
+          -4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          -1,
+          0
+        ],
+        "b": [
+          -3,
+          0
+        ],
+        "c": [
+          3,
+          0
+        ],
+        "t": [
+          0,
+          4
+        ],
+        "at_plus_1": [
+          1,
+          -4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          -3,
+          0
+        ],
+        "c": [
+          3,
+          0
+        ],
+        "t": [
+          0,
+          4
+        ],
+        "at_plus_1": [
+          1,
+          4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          -3,
+          0
+        ],
+        "c": [
+          -2,
+          -2
+        ],
+        "t": [
+          -11,
+          -4
+        ],
+        "at_plus_1": [
+          -10,
+          -4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          -3,
+          0
+        ],
+        "c": [
+          -2,
+          2
+        ],
+        "t": [
+          -11,
+          4
+        ],
+        "at_plus_1": [
+          -10,
+          4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          -1,
+          0
+        ],
+        "b": [
+          3,
+          0
+        ],
+        "c": [
+          2,
+          -2
+        ],
+        "t": [
+          11,
+          -4
+        ],
+        "at_plus_1": [
+          -10,
+          4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 2,
+        "a": [
+          -1,
+          0
+        ],
+        "b": [
+          3,
+          0
+        ],
+        "c": [
+          2,
+          2
+        ],
+        "t": [
+          11,
+          4
+        ],
+        "at_plus_1": [
+          -10,
+          -4
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 3,
+        "a": [
+          1,
+          -2
+        ],
+        "b": [
+          -4,
+          3
+        ],
+        "c": [
+          1,
+          3
+        ],
+        "t": [
+          -7,
+          14
+        ],
+        "at_plus_1": [
+          22,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 3,
+        "a": [
+          -1,
+          2
+        ],
+        "b": [
+          -1,
+          -3
+        ],
+        "c": [
+          4,
+          -3
+        ],
+        "t": [
+          7,
+          -14
+        ],
+        "at_plus_1": [
+          22,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 6,
+        "a": [
+          2,
+          0
+        ],
+        "b": [
+          -3,
+          -1
+        ],
+        "c": [
+          -3,
+          1
+        ],
+        "t": [
+          -14,
+          0
+        ],
+        "at_plus_1": [
+          -27,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 6,
+        "a": [
+          -2,
+          0
+        ],
+        "b": [
+          3,
+          -1
+        ],
+        "c": [
+          3,
+          1
+        ],
+        "t": [
+          14,
+          0
+        ],
+        "at_plus_1": [
+          -27,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 11,
+        "a": [
+          1,
+          0
+        ],
+        "b": [
+          -4,
+          1
+        ],
+        "c": [
+          -3,
+          -1
+        ],
+        "t": [
+          -15,
+          0
+        ],
+        "at_plus_1": [
+          -14,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 11,
+        "a": [
+          -1,
+          0
+        ],
+        "b": [
+          3,
+          1
+        ],
+        "c": [
+          4,
+          -1
+        ],
+        "t": [
+          15,
+          0
+        ],
+        "at_plus_1": [
+          -14,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 35,
+        "a": [
+          3,
+          0
+        ],
+        "b": [
+          -3,
+          1
+        ],
+        "c": [
+          -2,
+          -1
+        ],
+        "t": [
+          -13,
+          0
+        ],
+        "at_plus_1": [
+          -38,
+          0
+        ],
+        "final_pass": false
+      },
+      {
+        "d": 35,
+        "a": [
+          -3,
+          0
+        ],
+        "b": [
+          2,
+          1
+        ],
+        "c": [
+          3,
+          -1
+        ],
+        "t": [
+          13,
+          0
+        ],
+        "at_plus_1": [
+          -38,
+          0
+        ],
+        "final_pass": false
+      }
+    ],
+    "canonical_orbits": [
+      [
+        2,
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            -4
+          ]
+        ]
+      ],
+      [
+        2,
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            11,
+            -4
+          ]
+        ]
+      ],
+      [
+        3,
+        [
+          [
+            -1,
+            2
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            4,
+            -3
+          ],
+          [
+            7,
+            -14
+          ]
+        ]
+      ],
+      [
+        6,
+        [
+          [
+            -2,
+            0
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            14,
+            0
+          ]
+        ]
+      ],
+      [
+        11,
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            15,
+            0
+          ]
+        ]
+      ],
+      [
+        35,
+        [
+          [
+            -3,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            13,
+            0
+          ]
+        ]
+      ]
+    ]
+  },
+  "determinant": {
+    "cubic_monomials": 22,
+    "quartic_monomials": 6,
+    "grouped_absolute_coefficients": {
+      "(1, -1, -1, -1)": "2",
+      "(-1, -1, 0, 0)": "6",
+      "(0, 0, -1, -1)": "6",
+      "(-1, -1, -1, 1)": "2",
+      "(0, -1, -1, 0)": "6",
+      "(-1, 0, 0, -1)": "6",
+      "(0, -1, 0, -1)": "6",
+      "(-1, 0, -1, 0)": "6",
+      "(-1, -1, 1, -1)": "2",
+      "(-1, 1, -1, -1)": "2"
+    }
+  },
+  "frontier": [
+    {
+      "alpha": "1",
+      "B0": "8",
+      "t": "27/8",
+      "F2_3": "1461250679923/5156108238848",
+      "Ft": "8660210422481/8700932653056"
+    },
+    {
+      "alpha": "140/99",
+      "B0": "4",
+      "t": "3",
+      "F2_3": "748525523621821483/1934346231480320000",
+      "Ft": "964921210337222547/967173115740160000"
+    },
+    {
+      "alpha": "12/7",
+      "B0": "3",
+      "t": "11/4",
+      "F2_3": "1165213747/2539579392",
+      "Ft": "10395090847/10475764992"
+    },
+    {
+      "alpha": "2",
+      "B0": "3",
+      "t": "29/10",
+      "F2_3": "22952137/56010528",
+      "Ft": "1207645121/1218228984"
+    },
+    {
+      "alpha": "20/9",
+      "B0": "3",
+      "t": "3",
+      "F2_3": "11429375189/29872281600",
+      "Ft": "133650570677/134425267200"
+    }
+  ],
+  "interpolation_parameters": [
+    {
+      "H": 32,
+      "lower_Q": "610119680/120943911",
+      "upper_Q": "122023936/6879629"
+    },
+    {
+      "H": 48,
+      "lower_Q": "2126295040/398301399",
+      "upper_Q": "2126295040/142842001"
+    }
+  ],
+  "source": "output/D1_bound5-v2.tex",
+  "source_sha256": "5edcf8777371c4ad8979f122022d3119a8ae2de75d9674b336df994bba860b70",
+  "assertions": 128,
+  "checks": [
+    {
+      "name": "source contains \\label{eq:irregular-quadratic}",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains |1+2ab|-|a+b|",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains If \\(A\\ge3\\), then \\(T>3ABS\\)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains F(2)<7/10",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains F(3)<19/20",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains K=400",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains 16405041495117",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source contains \\mu=\\frac{51051}{400000}",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "regular-completion product",
+      "passed": true,
+      "evidence": "{(('a', 2),): Fraction(1, 1), (('a', 1), ('b', 1)): Fraction(-2, 1), (('a', 1), ('c', 1)): Fraction(-2, 1), (('b', 2),): Fraction(1, 1), (('b', 1), ('c', 1)): Fraction(-2, 1), (('c', 2),): Fraction(1, 1), (): Fraction(-4, 1)}"
+    },
+    {
+      "name": "quadratic majorant identity",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "irregular lower endpoint",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "irregular upper endpoint",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "branch rationalization 1/12",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "branch rationalization 1/3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "branch rationalization 1/4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "branch rationalization 9/25",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail endpoint at A=1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail endpoint at A=B",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail relative loss",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail p lower bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail perturbation radius",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail field list",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tail enumeration counts",
+      "passed": true,
+      "evidence": "[90, 118, 16, 0]"
+    },
+    {
+      "name": "tail candidate orbit count",
+      "passed": true,
+      "evidence": "6"
+    },
+    {
+      "name": "printed tail final value (2, (-1, 0), (-3, 0), (3, 0), (0, -4))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "printed tail final value (2, (-1, 0), (2, -2), (3, 0), (11, -4))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "printed tail final value (3, (-1, 2), (-1, -3), (4, -3), (7, -14))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "printed tail final value (6, (-2, 0), (3, -1), (3, 1), (14, 0))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "printed tail final value (11, (-1, 0), (3, 1), (4, -1), (15, 0))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "printed tail final value (35, (-3, 0), (2, 1), (3, -1), (13, 0))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "printed six tail rows exactly cover recomputed orbits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-four first constant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-four weighted maximum",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-four second constant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-five inverse residual",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-five determinant prebound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-five final bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "product-five nonsingularity bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rank-two determinant identity",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic determinant graph formula",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic determinant formula",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "no other determinant degrees",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "substituted leading Laurent identity",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic absolute coefficient groups",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic absolute coefficient sum",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 0, 0, 1, 1, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (2, 0, 0, 0, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 0, 0, 0, 0, 2)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 1, 0, 1, 0, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 0, 0, 1, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 0, 1, 1, 0, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 0, 1, 0, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 0, 1, 1, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 1, 0, 0, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 0, 0, 0, 1, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 1, 0, 0, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 1, 0, 0, 1, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (1, 0, 1, 0, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 1, 1, 0, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 2, 0, 0, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 1, 0, 0, 2, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 1, 0, 1, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 1, 1, 0, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 1, 1, 1, 0, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 0, 1, 1, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 0, 1, 2, 0, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "cubic incident count (0, 0, 2, 1, 0, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic incident count (2, 0, 0, 0, 0, 2)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic incident count (1, 0, 1, 1, 0, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic incident count (1, 1, 0, 0, 1, 1)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic incident count (0, 2, 0, 0, 2, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic incident count (0, 1, 1, 1, 1, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "quartic incident count (0, 0, 2, 2, 0, 0)",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "small defect polynomial",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "small defect endpoints",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(1, 1), Fraction(8, 1), Fraction(2, 3))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(1, 1), Fraction(8, 1), Fraction(27, 8))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier AB guard 1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier endpoint 1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(140, 99), Fraction(4, 1), Fraction(2, 3))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(140, 99), Fraction(4, 1), Fraction(3, 1))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier AB guard 140/99",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier endpoint 140/99",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(12, 7), Fraction(3, 1), Fraction(2, 3))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(12, 7), Fraction(3, 1), Fraction(11, 4))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier AB guard 12/7",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier endpoint 12/7",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(2, 1), Fraction(3, 1), Fraction(2, 3))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(2, 1), Fraction(3, 1), Fraction(29, 10))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier AB guard 2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier endpoint 2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(20, 9), Fraction(3, 1), Fraction(2, 3))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(20, 9), Fraction(3, 1), Fraction(3, 1))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier AB guard 20/9",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier endpoint 20/9",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frontier maximum",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "majorant convexity (Fraction(3, 1), Fraction(3, 1), Fraction(2, 1))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all-large F(2)",
+      "passed": true,
+      "evidence": "27298839409/40831674912"
+    },
+    {
+      "name": "majorant convexity (Fraction(3, 1), Fraction(3, 1), Fraction(3, 1))",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all-large F(3)",
+      "passed": true,
+      "evidence": "57530072833/61247512368"
+    },
+    {
+      "name": "all-order barycentric generating identity m2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all-order barycentric generating identity m3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all-order barycentric generating identity m4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "strong-two squared elimination identity",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "strong-two quadratic discriminant identity",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "interpolation coefficient 2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "interpolation coefficient 3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "interpolation coefficient 4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "two-anchor remainder H32",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three-anchor residual H32",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three-anchor vanishing window H32",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "two-anchor remainder H48",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three-anchor residual H48",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three-anchor vanishing window H48",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "two-anchor main coefficient",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three-anchor main coefficient",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "strong-two zero exclusion",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "strong-two first term",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "general-three coefficients",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "separated-three estimates",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "four-anchor nonvanishing gap",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct-four estimates",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "retained nonvanishing window",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "retained W first contribution",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "retained mu",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "retained alpha and loss",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "retained direct-four first contribution",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "new K400 exact value",
+      "passed": true,
+      "evidence": "16405041495117/40000000000"
+    }
+  ],
+  "outcome": "PASS"
+}

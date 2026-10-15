@@ -1,0 +1,2926 @@
+{
+  "source": "output/D1_bound5-v2.tex",
+  "sha256": "5edcf8777371c4ad8979f122022d3119a8ae2de75d9674b336df994bba860b70",
+  "scope_lines": [
+    876,
+    1853
+  ],
+  "check_count": 612,
+  "checks": [
+    {
+      "name": "eight parameter cells N_2",
+      "passed": true
+    },
+    {
+      "name": "eight parameter cells N_3",
+      "passed": true
+    },
+    {
+      "name": "eight parameter cells A_3",
+      "passed": true
+    },
+    {
+      "name": "eight parameter cells A_4",
+      "passed": true
+    },
+    {
+      "name": "eight parameter cells A_5",
+      "passed": true
+    },
+    {
+      "name": "five actual source families",
+      "passed": true
+    },
+    {
+      "name": "all actual family coefficient rows parsed",
+      "passed": true
+    },
+    {
+      "name": "five actual M values",
+      "passed": true
+    },
+    {
+      "name": "actual degree table row R_{ab}",
+      "passed": true
+    },
+    {
+      "name": "actual degree table row H",
+      "passed": true
+    },
+    {
+      "name": "actual degree table row T_{ab}",
+      "passed": true
+    },
+    {
+      "name": "actual degree table row V",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial L_{R_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar L_{R_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial L_H",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar L_H",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial L_{T_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar L_{T_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial L_V",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar L_V",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial W_{R_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar W_{R_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial W_H",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar W_H",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial W_{T_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar W_{T_{ab}}",
+      "passed": true
+    },
+    {
+      "name": "actual residual polynomial W_V",
+      "passed": true
+    },
+    {
+      "name": "safe polynomial grammar W_V",
+      "passed": true
+    },
+    {
+      "name": "v2 branch jump wording",
+      "passed": true
+    },
+    {
+      "name": "v2 H V combinations precede absolute coefficients",
+      "passed": true
+    },
+    {
+      "name": "v2 universal P statement",
+      "passed": true
+    },
+    {
+      "name": "v2 no obsolete P0 construction",
+      "passed": true
+    },
+    {
+      "name": "N2 printed numerator scalar list",
+      "passed": true
+    },
+    {
+      "name": "N2 all coefficients integral after g division",
+      "passed": true
+    },
+    {
+      "name": "N2 anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "N2 residual coefficient c^(2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N2 residual coefficient c^(1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N2 residual coefficient c^(0) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N2 residual coefficient c^(-1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N2 residual coefficient c^(-2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N2 residual coefficient c^(-3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N2 predicted first residual not identically zero",
+      "passed": true
+    },
+    {
+      "name": "N2 full symbolic determinant",
+      "passed": true
+    },
+    {
+      "name": "N2 row0 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "N2 row0 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        96,
+        352,
+        256
+      ]
+    },
+    {
+      "name": "N2 row1 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "N2 row1 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        100,
+        400,
+        480
+      ]
+    },
+    {
+      "name": "N2 row2 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "N2 row2 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        100,
+        400,
+        480
+      ]
+    },
+    {
+      "name": "N2 printed uniform M",
+      "passed": true,
+      "detail": "485204101/2000000"
+    },
+    {
+      "name": "N2 printed convolution r=0",
+      "passed": true
+    },
+    {
+      "name": "N2 printed convolution r=1",
+      "passed": true
+    },
+    {
+      "name": "N2 printed convolution r=2",
+      "passed": true
+    },
+    {
+      "name": "N2 printed convolution r=3",
+      "passed": true
+    },
+    {
+      "name": "N2 printed convolution r=4",
+      "passed": true
+    },
+    {
+      "name": "N2 printed constant root block",
+      "passed": true
+    },
+    {
+      "name": "N2 J",
+      "passed": true
+    },
+    {
+      "name": "N2 Delta",
+      "passed": true
+    },
+    {
+      "name": "N2 beta",
+      "passed": true
+    },
+    {
+      "name": "N2 Rstar",
+      "passed": true
+    },
+    {
+      "name": "N3 printed numerator scalar list",
+      "passed": true
+    },
+    {
+      "name": "N3 all coefficients integral after g division",
+      "passed": true
+    },
+    {
+      "name": "N3 anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(0) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(-1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(-2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(-3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(-4) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 residual coefficient c^(-5) vanishes",
+      "passed": true
+    },
+    {
+      "name": "N3 predicted first residual not identically zero",
+      "passed": true
+    },
+    {
+      "name": "N3 full symbolic determinant",
+      "passed": true
+    },
+    {
+      "name": "N3 row0 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "N3 row0 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        1344,
+        9408,
+        17024,
+        8960
+      ]
+    },
+    {
+      "name": "N3 row1 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "N3 row1 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        1368,
+        8384,
+        23168,
+        16384
+      ]
+    },
+    {
+      "name": "N3 row2 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "N3 row2 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        1368,
+        8384,
+        23168,
+        16384
+      ]
+    },
+    {
+      "name": "N3 printed uniform M",
+      "passed": true,
+      "detail": "207140601865271/50000000000"
+    },
+    {
+      "name": "N3 printed convolution r=0",
+      "passed": true
+    },
+    {
+      "name": "N3 printed convolution r=1",
+      "passed": true
+    },
+    {
+      "name": "N3 printed convolution r=2",
+      "passed": true
+    },
+    {
+      "name": "N3 printed convolution r=3",
+      "passed": true
+    },
+    {
+      "name": "N3 printed convolution r=4",
+      "passed": true
+    },
+    {
+      "name": "N3 printed convolution r=5",
+      "passed": true
+    },
+    {
+      "name": "N3 printed convolution r=6",
+      "passed": true
+    },
+    {
+      "name": "N3 printed constant root block",
+      "passed": true
+    },
+    {
+      "name": "N3 J",
+      "passed": true
+    },
+    {
+      "name": "N3 Delta",
+      "passed": true
+    },
+    {
+      "name": "N3 beta",
+      "passed": true
+    },
+    {
+      "name": "N3 Rstar",
+      "passed": true
+    },
+    {
+      "name": "A3 printed numerator scalar list",
+      "passed": true
+    },
+    {
+      "name": "A3 all coefficients integral after g division",
+      "passed": true
+    },
+    {
+      "name": "A3 anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(0) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(-1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(-2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(-3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 residual coefficient c^(-4) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A3 predicted first residual not identically zero",
+      "passed": true
+    },
+    {
+      "name": "A3 full symbolic determinant",
+      "passed": true
+    },
+    {
+      "name": "A3 row0 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A3 row0 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        800,
+        4544,
+        10368,
+        6144
+      ]
+    },
+    {
+      "name": "A3 row1 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A3 row1 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        1288,
+        4256,
+        9856,
+        8960
+      ]
+    },
+    {
+      "name": "A3 row2 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A3 row2 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        1288,
+        4256,
+        9856,
+        8960
+      ]
+    },
+    {
+      "name": "A3 printed uniform M",
+      "passed": true,
+      "detail": "113244485748261/50000000000"
+    },
+    {
+      "name": "A3 printed convolution r=0",
+      "passed": true
+    },
+    {
+      "name": "A3 printed convolution r=1",
+      "passed": true
+    },
+    {
+      "name": "A3 printed convolution r=2",
+      "passed": true
+    },
+    {
+      "name": "A3 printed convolution r=3",
+      "passed": true
+    },
+    {
+      "name": "A3 printed convolution r=4",
+      "passed": true
+    },
+    {
+      "name": "A3 printed convolution r=5",
+      "passed": true
+    },
+    {
+      "name": "A3 printed convolution r=6",
+      "passed": true
+    },
+    {
+      "name": "A3 printed constant root block",
+      "passed": true
+    },
+    {
+      "name": "A3 J",
+      "passed": true
+    },
+    {
+      "name": "A3 Delta",
+      "passed": true
+    },
+    {
+      "name": "A3 beta",
+      "passed": true
+    },
+    {
+      "name": "A3 Rstar",
+      "passed": true
+    },
+    {
+      "name": "A4 printed numerator scalar list",
+      "passed": true
+    },
+    {
+      "name": "A4 all coefficients integral after g division",
+      "passed": true
+    },
+    {
+      "name": "A4 anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(4) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(0) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(-1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(-2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(-3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(-4) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(-5) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 residual coefficient c^(-6) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A4 predicted first residual not identically zero",
+      "passed": true
+    },
+    {
+      "name": "A4 full symbolic determinant",
+      "passed": true
+    },
+    {
+      "name": "A4 row0 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A4 row0 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        10944,
+        86784,
+        350208,
+        482304,
+        215040
+      ]
+    },
+    {
+      "name": "A4 row1 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A4 row1 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        18128,
+        80512,
+        276096,
+        561920,
+        327680
+      ]
+    },
+    {
+      "name": "A4 row2 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A4 row2 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        18128,
+        80512,
+        276096,
+        561920,
+        327680
+      ]
+    },
+    {
+      "name": "A4 printed uniform M",
+      "passed": true,
+      "detail": "2072028863364346433/12500000000000"
+    },
+    {
+      "name": "A4 printed convolution r=0",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=1",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=2",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=3",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=4",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=5",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=6",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=7",
+      "passed": true
+    },
+    {
+      "name": "A4 printed convolution r=8",
+      "passed": true
+    },
+    {
+      "name": "A4 printed constant root block",
+      "passed": true
+    },
+    {
+      "name": "A4 J",
+      "passed": true
+    },
+    {
+      "name": "A4 Delta",
+      "passed": true
+    },
+    {
+      "name": "A4 beta",
+      "passed": true
+    },
+    {
+      "name": "A4 Rstar",
+      "passed": true
+    },
+    {
+      "name": "A5 printed numerator scalar list",
+      "passed": true
+    },
+    {
+      "name": "A5 all coefficients integral after g division",
+      "passed": true
+    },
+    {
+      "name": "A5 anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(5) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(4) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(0) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-1) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-2) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-3) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-4) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-5) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-6) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-7) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 residual coefficient c^(-8) vanishes",
+      "passed": true
+    },
+    {
+      "name": "A5 predicted first residual not identically zero",
+      "passed": true
+    },
+    {
+      "name": "A5 full symbolic determinant",
+      "passed": true
+    },
+    {
+      "name": "A5 row0 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A5 row0 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        156000,
+        1601280,
+        9707520,
+        22379520,
+        22087680,
+        7864320
+      ]
+    },
+    {
+      "name": "A5 row1 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A5 row1 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        262152,
+        1463264,
+        6707712,
+        22437888,
+        28452864,
+        12300288
+      ]
+    },
+    {
+      "name": "A5 row2 homogeneous weight",
+      "passed": true
+    },
+    {
+      "name": "A5 row2 printed coefficient sums",
+      "passed": true,
+      "detail": [
+        262152,
+        1463264,
+        6707712,
+        22437888,
+        28452864,
+        12300288
+      ]
+    },
+    {
+      "name": "A5 printed uniform M",
+      "passed": true,
+      "detail": "155650636771039341017669/50000000000000000"
+    },
+    {
+      "name": "A5 printed convolution r=0",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=1",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=2",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=3",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=4",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=5",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=6",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=7",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=8",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=9",
+      "passed": true
+    },
+    {
+      "name": "A5 printed convolution r=10",
+      "passed": true
+    },
+    {
+      "name": "A5 printed constant root block",
+      "passed": true
+    },
+    {
+      "name": "A5 J",
+      "passed": true
+    },
+    {
+      "name": "A5 Delta",
+      "passed": true
+    },
+    {
+      "name": "A5 beta",
+      "passed": true
+    },
+    {
+      "name": "A5 Rstar",
+      "passed": true
+    },
+    {
+      "name": "Rab integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "Rab anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "Rab cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "Tab integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "Tab anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "Tab cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "H integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "H anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "H cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "V integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "V anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "V cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "Rbs integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "Rbs anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "Rbs cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "Ras integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "Ras anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "Ras cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "Tbs integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "Tbs anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "Tbs cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "Tsa integral polynomial row",
+      "passed": true
+    },
+    {
+      "name": "Tsa anchor divisibility",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=-2",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=-1",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=0",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=1",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=2",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=3",
+      "passed": true
+    },
+    {
+      "name": "Tsa cancellation n=4",
+      "passed": true
+    },
+    {
+      "name": "printed ER",
+      "passed": true
+    },
+    {
+      "name": "printed ET",
+      "passed": true
+    },
+    {
+      "name": "four-row full polynomial 4x4 determinant",
+      "passed": true
+    },
+    {
+      "name": "four-row row 0 degree sums",
+      "passed": true,
+      "detail": [
+        84,
+        408,
+        384
+      ]
+    },
+    {
+      "name": "row0 leading monomial guards (-2, 0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row0 leading monomial guards (-3, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row0 leading monomial guards (1, -3, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row0 leading monomial guards (0, -2, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (2, 0, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (1, 1, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (3, 0, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (2, 1, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (4, 0, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (3, 1, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (1, 1, 0, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (0, 2, 0, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (1, 2, 0, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (0, 3, 0, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (1, 3, 0, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "row0 tail monomial guards (0, 4, 0, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source leading polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source tail polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source leading polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source tail polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source leading polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source tail polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source leading polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source tail polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source leading polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source tail polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source leading polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "four-row 0 source tail polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (2, 0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (1, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (3, 0, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (2, 1, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (4, 0, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (3, 1, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (1, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (0, 2, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (1, 2, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (0, 3, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (1, 3, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 0 coefficient envelope (0, 4, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "four-row row 1 degree sums",
+      "passed": true,
+      "detail": [
+        210,
+        840,
+        720
+      ]
+    },
+    {
+      "name": "row1 leading monomial guards (-3, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row1 leading monomial guards (-3, 0, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row1 leading monomial guards (1, -3, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row1 leading monomial guards (0, -3, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row1 leading monomial guards (0, 1, -3, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row1 leading monomial guards (1, 0, -3, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 1, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (2, 1, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (3, 1, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 0, 1, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (2, 0, 1, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (3, 0, 1, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 1, 0, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 2, 0, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 3, 0, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (0, 1, 1, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (0, 2, 1, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (0, 3, 1, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (0, 1, 1, 0, 0)/2",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (0, 1, 2, 0, 1)/2",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (0, 1, 3, 0, 2)/2",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 0, 1, 0, 0)/2",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 0, 2, 0, 1)/2",
+      "passed": true
+    },
+    {
+      "name": "row1 tail monomial guards (1, 0, 3, 0, 2)/2",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source leading polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source tail polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source leading polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source tail polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source leading polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source tail polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source leading polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source tail polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source leading polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source tail polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source leading polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "four-row 1 source tail polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (2, 1, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (3, 1, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 0, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (2, 0, 1, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (3, 0, 1, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 2, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 3, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (0, 1, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (0, 2, 1, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (0, 3, 1, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (0, 1, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (0, 1, 2, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (0, 1, 3, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 0, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 0, 2, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 1 coefficient envelope (1, 0, 3, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "four-row row 2 degree sums",
+      "passed": true,
+      "detail": [
+        252,
+        1224,
+        1200
+      ]
+    },
+    {
+      "name": "row2 leading monomial guards (-1, 0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row2 leading monomial guards (-2, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row2 leading monomial guards (-3, 2, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row2 leading monomial guards (1, -2, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row2 leading monomial guards (0, -1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (3, 0, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (2, 1, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (1, 2, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (4, 0, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (3, 1, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (2, 2, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (5, 0, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (4, 1, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (3, 2, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (1, 2, 0, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (0, 3, 0, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (1, 3, 0, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (0, 4, 0, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row2 tail monomial guards (0, 5, 0, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source leading polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source tail polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source leading polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source tail polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source leading polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source tail polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source leading polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source tail polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source leading polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source tail polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source leading polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "four-row 2 source tail polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (3, 0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (2, 1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (1, 2, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (4, 0, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (3, 1, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (2, 2, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (5, 0, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (4, 1, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (3, 2, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (1, 2, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (0, 3, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (1, 3, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (0, 4, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 2 coefficient envelope (0, 5, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "four-row row 3 degree sums",
+      "passed": true,
+      "detail": [
+        492,
+        2424,
+        2352
+      ]
+    },
+    {
+      "name": "row3 leading monomial guards (-1, 0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (-2, 0, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (-3, 0, 2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (0, -1, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (0, -2, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (0, -3, 2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (1, 0, -2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 leading monomial guards (0, 1, -2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (3, 0, 0, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (2, 0, 1, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (1, 0, 2, 0, 0)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (4, 0, 0, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (3, 0, 1, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (2, 0, 2, 0, 1)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (5, 0, 0, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (4, 0, 1, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (3, 0, 2, 0, 2)/0",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 3, 0, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 2, 1, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 1, 2, 0, 0)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 4, 0, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 3, 1, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 2, 2, 0, 1)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 5, 0, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 4, 1, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 3, 2, 0, 2)/1",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (1, 0, 2, 0, 0)/2",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (1, 0, 3, 0, 1)/2",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 1, 2, 0, 0)/2",
+      "passed": true
+    },
+    {
+      "name": "row3 tail monomial guards (0, 1, 3, 0, 1)/2",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source leading polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source tail polynomial x=0",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source leading polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source tail polynomial x=1",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source leading polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source tail polynomial x=2",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source leading polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source tail polynomial x=3",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source leading polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source tail polynomial x=4",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source leading polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "four-row 3 source tail polynomial x=5",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (3, 0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (2, 0, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (1, 0, 2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (4, 0, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (3, 0, 1, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (2, 0, 2, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (5, 0, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (4, 0, 1, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (3, 0, 2, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 3, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 2, 1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 1, 2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 4, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 3, 1, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 2, 2, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 5, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 4, 1, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 3, 2, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (1, 0, 2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (1, 0, 3, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 1, 2, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "row 3 coefficient envelope (0, 1, 3, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "rank degenerate algebra E=(s-a)^2+(a+s)L",
+      "passed": true
+    },
+    {
+      "name": "rank guard strictness 6*200>28",
+      "passed": true
+    },
+    {
+      "name": "256L V dominates row 0 on [0,1]",
+      "passed": true,
+      "detail": [
+        "15",
+        "30",
+        "59",
+        "130",
+        "276",
+        "530"
+      ]
+    },
+    {
+      "name": "256L V dominates row 1 on [0,1]",
+      "passed": true,
+      "detail": [
+        "15",
+        "29",
+        "58",
+        "130",
+        "278",
+        "530"
+      ]
+    },
+    {
+      "name": "256L V dominates row 2 on [0,1]",
+      "passed": true,
+      "detail": [
+        "0",
+        "0",
+        "0",
+        "16",
+        "64",
+        "160"
+      ]
+    },
+    {
+      "name": "W V dominates row 0 on [0,1]",
+      "passed": true,
+      "detail": [
+        "885",
+        "5274/5",
+        "6269/5",
+        "8727/5",
+        "13992/5",
+        "4392"
+      ]
+    },
+    {
+      "name": "W V dominates row 1 on [0,1]",
+      "passed": true,
+      "detail": [
+        "885",
+        "4979/5",
+        "11501/10",
+        "16113/10",
+        "12794/5",
+        "3498"
+      ]
+    },
+    {
+      "name": "W V dominates row 2 on [0,1]",
+      "passed": true,
+      "detail": [
+        "0",
+        "0",
+        "0",
+        "1296/5",
+        "5184/5",
+        "2592"
+      ]
+    },
+    {
+      "name": "all source L/W coefficients nonnegative",
+      "passed": true
+    },
+    {
+      "name": "source R(1) strict constant 3",
+      "passed": true,
+      "detail": "65233/28416"
+    },
+    {
+      "name": "linear0 cancellation -1",
+      "passed": true
+    },
+    {
+      "name": "linear0 cancellation 0",
+      "passed": true
+    },
+    {
+      "name": "linear0 cancellation 1",
+      "passed": true
+    },
+    {
+      "name": "linear0 cancellation 2",
+      "passed": true
+    },
+    {
+      "name": "linear0 cancellation 3",
+      "passed": true
+    },
+    {
+      "name": "linear0 coefficient total",
+      "passed": true
+    },
+    {
+      "name": "linear1 cancellation -1",
+      "passed": true
+    },
+    {
+      "name": "linear1 cancellation 0",
+      "passed": true
+    },
+    {
+      "name": "linear1 cancellation 1",
+      "passed": true
+    },
+    {
+      "name": "linear1 cancellation 2",
+      "passed": true
+    },
+    {
+      "name": "linear1 cancellation 3",
+      "passed": true
+    },
+    {
+      "name": "linear1 coefficient total",
+      "passed": true
+    },
+    {
+      "name": "linear2 cancellation -1",
+      "passed": true
+    },
+    {
+      "name": "linear2 cancellation 0",
+      "passed": true
+    },
+    {
+      "name": "linear2 cancellation 1",
+      "passed": true
+    },
+    {
+      "name": "linear2 cancellation 2",
+      "passed": true
+    },
+    {
+      "name": "linear2 cancellation 3",
+      "passed": true
+    },
+    {
+      "name": "linear2 coefficient total",
+      "passed": true
+    },
+    {
+      "name": "linear3 cancellation -1",
+      "passed": true
+    },
+    {
+      "name": "linear3 cancellation 0",
+      "passed": true
+    },
+    {
+      "name": "linear3 cancellation 1",
+      "passed": true
+    },
+    {
+      "name": "linear3 cancellation 2",
+      "passed": true
+    },
+    {
+      "name": "linear3 cancellation 3",
+      "passed": true
+    },
+    {
+      "name": "linear3 coefficient total",
+      "passed": true
+    },
+    {
+      "name": "linear4 cancellation -1",
+      "passed": true
+    },
+    {
+      "name": "linear4 cancellation 0",
+      "passed": true
+    },
+    {
+      "name": "linear4 cancellation 1",
+      "passed": true
+    },
+    {
+      "name": "linear4 cancellation 2",
+      "passed": true
+    },
+    {
+      "name": "linear4 cancellation 3",
+      "passed": true
+    },
+    {
+      "name": "linear4 coefficient total",
+      "passed": true
+    },
+    {
+      "name": "linear full polynomial determinant",
+      "passed": true
+    },
+    {
+      "name": "linear determinant evaluation c=1",
+      "passed": true
+    },
+    {
+      "name": "linear determinant evaluation c=2",
+      "passed": true
+    },
+    {
+      "name": "linear determinant evaluation c=-3",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=1,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=1,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=1,c=11 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=1,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=1,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=1,c=-13 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=2,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=2,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=2,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=2,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=3,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=3,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=3,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=2,k=3,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=1,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=1,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=1,c=11 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=1,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=1,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=1,c=-13 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=2,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=2,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary normalized 3-root det c=11",
+      "passed": true
+    },
+    {
+      "name": "ordinary normalized column divisibility c=11",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=2,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=2,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary normalized 3-root det c=-13",
+      "passed": true
+    },
+    {
+      "name": "ordinary normalized column divisibility c=-13",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=3,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=3,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=3,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=3,k=3,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=1,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=1,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=1,c=11 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=1,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=1,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=1,c=-13 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=2,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=2,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=2,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=2,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=3,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=3,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=3,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=4,k=3,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=1,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=1,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=1,c=11 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=1,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=1,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=1,c=-13 even quotients",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=2,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=2,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=2,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=2,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=3,c=11 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=3,c=11 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=3,c=-13 determinant",
+      "passed": true
+    },
+    {
+      "name": "ordinary m=5,k=3,c=-13 integer column factors",
+      "passed": true
+    },
+    {
+      "name": "uniform branch e",
+      "passed": true,
+      "detail": {
+        "lhs": "1001/640",
+        "rhs": "9/4"
+      }
+    },
+    {
+      "name": "sharp branch e",
+      "passed": true,
+      "detail": {
+        "lhs": "40441401/40000000",
+        "rhs": "10201/10000"
+      }
+    },
+    {
+      "name": "ordinary H2",
+      "passed": true,
+      "detail": {
+        "lhs": "1669/40",
+        "rhs": "42"
+      }
+    },
+    {
+      "name": "ordinary coefficient",
+      "passed": true,
+      "detail": {
+        "lhs": "1670669/266400",
+        "rhs": "9"
+      }
+    },
+    {
+      "name": "ordinary R2 lower",
+      "passed": true,
+      "detail": {
+        "lhs": "2/5",
+        "rhs": "26946027/64000000"
+      }
+    },
+    {
+      "name": "three G",
+      "passed": true,
+      "detail": {
+        "lhs": "45568/75",
+        "rhs": "608"
+      }
+    },
+    {
+      "name": "three pe",
+      "passed": true,
+      "detail": {
+        "lhs": "89089/56832",
+        "rhs": "16/9"
+      }
+    },
+    {
+      "name": "three residual",
+      "passed": true,
+      "detail": {
+        "lhs": "1000000000/36926037",
+        "rhs": "28"
+      }
+    },
+    {
+      "name": "finite eta",
+      "passed": true,
+      "detail": {
+        "lhs": "1000000000000000000000000000000000000000000000000000/983135322373824356576285709435630185620679864016999",
+        "rhs": "10201/10000"
+      }
+    },
+    {
+      "name": "quadratic M",
+      "passed": true,
+      "detail": {
+        "lhs": "59449218423/25000000",
+        "rhs": "2400"
+      }
+    },
+    {
+      "name": "adaptive V",
+      "passed": true,
+      "detail": {
+        "lhs": "65233/28416",
+        "rhs": "23/10"
+      }
+    },
+    {
+      "name": "linear residual",
+      "passed": true,
+      "detail": {
+        "lhs": "625/444",
+        "rhs": "3/2"
+      }
+    },
+    {
+      "name": "adaptive rational residual equality",
+      "passed": true
+    },
+    {
+      "name": "all-order beta recurrence polynomial",
+      "passed": true
+    },
+    {
+      "name": "closed lower interval conversion",
+      "passed": true
+    },
+    {
+      "name": "closed upper interval conversion",
+      "passed": true
+    },
+    {
+      "name": "linear residual exact ceiling",
+      "passed": true
+    },
+    {
+      "name": "actual boundary jump k=1",
+      "passed": true
+    },
+    {
+      "name": "actual boundary jump k=2",
+      "passed": true
+    },
+    {
+      "name": "actual boundary jump k=3",
+      "passed": true
+    },
+    {
+      "name": "actual boundary jump k=4",
+      "passed": true
+    },
+    {
+      "name": "actual boundary jump k=5",
+      "passed": true
+    }
+  ],
+  "parsed_parameters": [
+    [
+      "N2",
+      2,
+      2,
+      2,
+      -1800,
+      "-15/64",
+      "5/1024",
+      "5/4"
+    ],
+    [
+      "N3",
+      3,
+      3,
+      4,
+      235200,
+      "105/256",
+      "35/65536",
+      "35/32"
+    ],
+    [
+      "A3",
+      3,
+      2,
+      4,
+      -156800,
+      "-35/256",
+      "35/32768",
+      "35/16"
+    ],
+    [
+      "A4",
+      4,
+      3,
+      2,
+      23284800,
+      "3465/16384",
+      "63/524288",
+      "63/8"
+    ],
+    [
+      "A5",
+      5,
+      4,
+      4,
+      -3995671680,
+      "-27027/65536",
+      "495/33554432",
+      "495/64"
+    ]
+  ],
+  "parsed_coefficient_sums": {
+    "N2": [
+      [
+        96,
+        352,
+        256
+      ],
+      [
+        100,
+        400,
+        480
+      ]
+    ],
+    "N3": [
+      [
+        1344,
+        9408,
+        17024,
+        8960
+      ],
+      [
+        1368,
+        8384,
+        23168,
+        16384
+      ]
+    ],
+    "A3": [
+      [
+        800,
+        4544,
+        10368,
+        6144
+      ],
+      [
+        1288,
+        4256,
+        9856,
+        8960
+      ]
+    ],
+    "A4": [
+      [
+        10944,
+        86784,
+        350208,
+        482304,
+        215040
+      ],
+      [
+        18128,
+        80512,
+        276096,
+        561920,
+        327680
+      ]
+    ],
+    "A5": [
+      [
+        156000,
+        1601280,
+        9707520,
+        22379520,
+        22087680,
+        7864320
+      ],
+      [
+        262152,
+        1463264,
+        6707712,
+        22437888,
+        28452864,
+        12300288
+      ]
+    ]
+  },
+  "parsed_M": [
+    243,
+    4143,
+    2265,
+    165763,
+    3113013
+  ],
+  "parsed_quadratic_degrees": [
+    [
+      84,
+      408,
+      384
+    ],
+    [
+      210,
+      840,
+      720
+    ],
+    [
+      252,
+      1224,
+      1200
+    ],
+    [
+      492,
+      2424,
+      2352
+    ]
+  ],
+  "parsed_LW_expressions": {
+    "('L', 'R_{ab}')": "5*x+10*x**2+10*x**4+5*x**5",
+    "('L', 'H')": "10*(x+x**4+x**5)",
+    "('L', 'T_{ab}')": "15+80*x+150*x**2+120*x**3+35*x**4",
+    "('L', 'V')": "15+80*x+150*x**2+280*x**3+35*x**4",
+    "('W', 'R_{ab}')": "295*x+143*x**2+143*x**4+295*x**5",
+    "('W', 'H')": "590*(x+x**4+x**5)",
+    "('W', 'T_{ab}')": "885+1144*x+435*x**2+42*x**3+170*x**4",
+    "('W', 'V')": "885+1144*x+435*x**2+2634*x**3+170*x**4"
+  },
+  "dominance_certificates": [
+    {
+      "table": "256L",
+      "row": 0,
+      "bernstein_degree": 5,
+      "coefficients": [
+        "15",
+        "30",
+        "59",
+        "130",
+        "276",
+        "530"
+      ]
+    },
+    {
+      "table": "256L",
+      "row": 1,
+      "bernstein_degree": 5,
+      "coefficients": [
+        "15",
+        "29",
+        "58",
+        "130",
+        "278",
+        "530"
+      ]
+    },
+    {
+      "table": "256L",
+      "row": 2,
+      "bernstein_degree": 5,
+      "coefficients": [
+        "0",
+        "0",
+        "0",
+        "16",
+        "64",
+        "160"
+      ]
+    },
+    {
+      "table": "W",
+      "row": 0,
+      "bernstein_degree": 5,
+      "coefficients": [
+        "885",
+        "5274/5",
+        "6269/5",
+        "8727/5",
+        "13992/5",
+        "4392"
+      ]
+    },
+    {
+      "table": "W",
+      "row": 1,
+      "bernstein_degree": 5,
+      "coefficients": [
+        "885",
+        "4979/5",
+        "11501/10",
+        "16113/10",
+        "12794/5",
+        "3498"
+      ]
+    },
+    {
+      "table": "W",
+      "row": 2,
+      "bernstein_degree": 5,
+      "coefficients": [
+        "0",
+        "0",
+        "0",
+        "1296/5",
+        "5184/5",
+        "2592"
+      ]
+    }
+  ],
+  "engine_provenance": "Arithmetic and constructor functions adapted from review_v1/checks/approximation_v1_exact.py; all results recomputed, with printed v2 data parsed anew.",
+  "limits": "Generic ordinary residue evaluations are finite probes, not an all-m,k proof. The analytic and all-order arguments are separately reconstructed in the ledger."
+}

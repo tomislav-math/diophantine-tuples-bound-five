@@ -1,0 +1,229 @@
+{
+  "description": "Original source paths identify the earlier verification packages. Mathematical code is unchanged; text-input filename suffixes only are adapted. Hashes retain provenance for every copied file.",
+  "files": [
+    {
+      "file": "packages/current/revision_v4/checks/completion_v4.py",
+      "original_file": "v4/revision_v4/checks/completion_v4.py",
+      "original_sha256": "d116aadb80005aa537e88568bcbb727307ed91d1602a82731a989c8de55e60e4",
+      "distributed_sha256": "7f441c45240febe2d8dbdf2153f806d6d9db6d197b221cb14f7636304dde3f69",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "recorded_results/current/completion_v4_results.json",
+      "original_file": "v4/revision_v4/checks/completion_v4_results.json",
+      "original_sha256": "21d4ddee0ed7101088682b32bcadf181ba784c5901fcbeba905cb0a22cce588a",
+      "distributed_sha256": "21d4ddee0ed7101088682b32bcadf181ba784c5901fcbeba905cb0a22cce588a",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/current/completion_v4.log",
+      "original_file": "v4/revision_v4/checks/completion_v4.log",
+      "original_sha256": "c201aefaa170057e2fd55047385d22c521ccf9389436ff8a4e61f1b6b6f0992e",
+      "distributed_sha256": "c201aefaa170057e2fd55047385d22c521ccf9389436ff8a4e61f1b6b6f0992e",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/checks/math_review_checks.py",
+      "original_file": "v4/revision_v4/checks/math_review_checks.py",
+      "original_sha256": "a0d039a5aabc487ab66bde1d9d421be13f8094a02339d4b5ef66c641db01ac1e",
+      "distributed_sha256": "0707629e81f3dafd29a255266dc3951bdbcd88d2e6838cc4c327f0a58e597195",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "recorded_results/current/math_review_checks.json",
+      "original_file": "v4/revision_v4/checks/math_review_checks.json",
+      "original_sha256": "2ac7f6d7e33ffc2b8ac8c471c209067c54021947f36765cef2af82e34146cac5",
+      "distributed_sha256": "2ac7f6d7e33ffc2b8ac8c471c209067c54021947f36765cef2af82e34146cac5",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/checks/interval_equivalence.py",
+      "original_file": "v4/revision_v4/checks/interval_equivalence.py",
+      "original_sha256": "b4ca7652988b0ea46376fcd44fd0c48e0d243f8b67ba0b16af70468175f2ee6c",
+      "distributed_sha256": "bdde4165d9a4b136290a638b8eab2f6fa15c1ce9cf344ae21e0cb1e4ed33a96d",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "recorded_results/current/interval_equivalence.json",
+      "original_file": "v4/revision_v4/checks/interval_equivalence.json",
+      "original_sha256": "ac538501d3c29fd24c15c6c8177191af3b97a45c7fcf6f31bb9867cafe4a3bee",
+      "distributed_sha256": "ac538501d3c29fd24c15c6c8177191af3b97a45c7fcf6f31bb9867cafe4a3bee",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/current/interval_equivalence.log",
+      "original_file": "v4/revision_v4/checks/interval_equivalence.log",
+      "original_sha256": "99d1b21f02ca4181a45cf2f4643dc76c0c4cc0ba6006c3db5e06d8ef76f5ec2c",
+      "distributed_sha256": "99d1b21f02ca4181a45cf2f4643dc76c0c4cc0ba6006c3db5e06d8ef76f5ec2c",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/checks/approximation_local.py",
+      "original_file": "v4/revision_v4/checks/approximation_local.py",
+      "original_sha256": "5c2ebcdd2b86492cc55b64890ce48273780b40bc8e3de91beb39cb5705454eb3",
+      "distributed_sha256": "da149b0e976a7ac60994bf42623e47046856021c50fbf7f167371d71f225dd1d",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "recorded_results/current/approximation_local.json",
+      "original_file": "v4/revision_v4/checks/approximation_local.json",
+      "original_sha256": "9ee714be6428f70a2f34c424cc499e81f7b36cc835b1de8d961a3f1ecde835d3",
+      "distributed_sha256": "9ee714be6428f70a2f34c424cc499e81f7b36cc835b1de8d961a3f1ecde835d3",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/current/approximation_local.log",
+      "original_file": "v4/revision_v4/checks/approximation_local.log",
+      "original_sha256": "56fb69845879542c129a3b582639742cb72e99fe9626cedbda21a58efba740a0",
+      "distributed_sha256": "56fb69845879542c129a3b582639742cb72e99fe9626cedbda21a58efba740a0",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/reviews/interval_referee_independent.py",
+      "original_file": "v4/revision_v4/reviews/interval_referee_independent.py",
+      "original_sha256": "cf9fd81a208d3cd5ebc49ed0f7cdfece960ccb95a4f822fe2379c3b9fcad4a28",
+      "distributed_sha256": "1629700d2a82dc3bb56a9d858b06e6e419422eb9147d963e83d11d6edc6df071",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "recorded_results/current/interval_referee_independent.log",
+      "original_file": "v4/revision_v4/reviews/interval_referee_independent.log",
+      "original_sha256": "44863f75e6031cfcf419ca8e2dc7014c8b742000fae944afb09d3d321916d9b2",
+      "distributed_sha256": "44863f75e6031cfcf419ca8e2dc7014c8b742000fae944afb09d3d321916d9b2",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/D1_bound5-v4.txt",
+      "original_file": "v4/revision_v4/D1_bound5-v4.tex",
+      "original_sha256": "776933702a89ba3ee6bee39045f3f1643fd899541586cc2acbcc420b1fa03ef3",
+      "distributed_sha256": "776933702a89ba3ee6bee39045f3f1643fd899541586cc2acbcc420b1fa03ef3",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/checkpoints/math_packet.txt",
+      "original_file": "v4/revision_v4/checkpoints/math_packet.tex",
+      "original_sha256": "8675f3f4b0ed54cb387408844fe757fcd803f9cc01ac3ba294796b923c55881b",
+      "distributed_sha256": "8675f3f4b0ed54cb387408844fe757fcd803f9cc01ac3ba294796b923c55881b",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/checkpoints/integrated.txt",
+      "original_file": "v4/revision_v4/checkpoints/integrated.tex",
+      "original_sha256": "776933702a89ba3ee6bee39045f3f1643fd899541586cc2acbcc420b1fa03ef3",
+      "distributed_sha256": "776933702a89ba3ee6bee39045f3f1643fd899541586cc2acbcc420b1fa03ef3",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/output/D1_bound5-v3.txt",
+      "original_file": "v4/output/D1_bound5-v3.tex",
+      "original_sha256": "a1119af75cf623411c678ea0e9b6e7dc9a3f59a931ee67384fc98be8d8373bd5",
+      "distributed_sha256": "a1119af75cf623411c678ea0e9b6e7dc9a3f59a931ee67384fc98be8d8373bd5",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/current/revision_v4/release_source.sha256",
+      "original_file": "v4/revision_v4/release_source.sha256",
+      "original_sha256": "4be4bc4738927c954ef17247a292e6029abba79d42f3962e28097cccc1aed4ce",
+      "distributed_sha256": "4be4bc4738927c954ef17247a292e6029abba79d42f3962e28097cccc1aed4ce",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/enumeration/revision_v2/checks/structural_v2.py",
+      "original_file": "historical-v2/revision_v2/checks/structural_v2.py",
+      "original_sha256": "342dfea2f2cc0f1c01b98d5bae1df6df5e63e28547b51ccacb26f6dd7e0d6a2e",
+      "distributed_sha256": "bd2f3f24ed262ecbecb78c2069c608d8f442f44c4441a1a2aaee30a11b13486a",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "packages/enumeration/revision_v2/checks/approximation_exact.py",
+      "original_file": "historical-v2/revision_v2/checks/approximation_exact.py",
+      "original_sha256": "54042052a1bccf7e22b33268c7aa3361ed30b52cd807c3cb7c4f44bfcf8af63c",
+      "distributed_sha256": "a24a88ba0548d49be6a87702e81a115cdd16919f2ba8b31fc029f79c8e440e74",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "packages/enumeration/revision_v2/checks/small_v2_constants.py",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_constants.py",
+      "original_sha256": "7098a46890a99420e02008c529d9199eb8d39d08814ded3888d54e8a693b74df",
+      "distributed_sha256": "5ca99891b4711079db9e789066947b9d360701dd95572875dbbf6ba17392f1a5",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "packages/enumeration/revision_v2/checks/small_v2_exact.py",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_exact.py",
+      "original_sha256": "cc8bb4a35bb3ddc05981f8b9db3c78da10b7bcd24ab044b7e123f01fc8eaf7b2",
+      "distributed_sha256": "d0cb7fc49d02a32d1e91e8dee1ef194ca814d30e1ec69bb06c0aca560b835c1f",
+      "change": "Only .tex pathname suffixes renamed .txt"
+    },
+    {
+      "file": "recorded_results/enumeration/structural_v2.json",
+      "original_file": "historical-v2/revision_v2/checks/structural_v2.json",
+      "original_sha256": "a82813e45258814e4d5ea6c86bc2c1f4e70cd48daf3d0dbc541d50f7eea452ba",
+      "distributed_sha256": "a82813e45258814e4d5ea6c86bc2c1f4e70cd48daf3d0dbc541d50f7eea452ba",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/approximation_exact_results.json",
+      "original_file": "historical-v2/revision_v2/checks/approximation_exact_results.json",
+      "original_sha256": "0117c345aad90c93aefdfdd99ac59c0ad811cf671c3897d1436da896f1cab5ad",
+      "distributed_sha256": "0117c345aad90c93aefdfdd99ac59c0ad811cf671c3897d1436da896f1cab5ad",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_constants.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_constants.json",
+      "original_sha256": "27d3dafff4a65e5c9cb9cd9ac499d8d1d3aace54503a62f617dc0f6b59f05801",
+      "distributed_sha256": "27d3dafff4a65e5c9cb9cd9ac499d8d1d3aace54503a62f617dc0f6b59f05801",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_pairs.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_pairs.json",
+      "original_sha256": "e285a3a16e2452891e59a9c52714193e72c5e387db175de8c98f6b6aedef0076",
+      "distributed_sha256": "e285a3a16e2452891e59a9c52714193e72c5e387db175de8c98f6b6aedef0076",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_pell.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_pell.json",
+      "original_sha256": "76df5d3289b97733d9b471fef8f76416331ae83b0616af8609014cb59ef8ae01",
+      "distributed_sha256": "76df5d3289b97733d9b471fef8f76416331ae83b0616af8609014cb59ef8ae01",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_triples.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_triples.json",
+      "original_sha256": "b3c851ba6cf31e5ab0b44314a34498525d549e15038d67b030a1aa1504b116d2",
+      "distributed_sha256": "b3c851ba6cf31e5ab0b44314a34498525d549e15038d67b030a1aa1504b116d2",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_runtime_pairs.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_runtime_pairs.json",
+      "original_sha256": "9bfb318a9462923118cc4a1d47dc303c443e2b31a00d779d5554429b90d3b253",
+      "distributed_sha256": "9bfb318a9462923118cc4a1d47dc303c443e2b31a00d779d5554429b90d3b253",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_runtime_pell.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_runtime_pell.json",
+      "original_sha256": "ec01d9f0f62b6314fd74b9b67b0ae54e5515cc59909a746afd8d84ebaf0fddd4",
+      "distributed_sha256": "ec01d9f0f62b6314fd74b9b67b0ae54e5515cc59909a746afd8d84ebaf0fddd4",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "recorded_results/enumeration/small_v2_runtime_triples.json",
+      "original_file": "historical-v2/revision_v2/checks/small_v2_runtime_triples.json",
+      "original_sha256": "b7a997074d0f3dafb6c12bcb148bbef5df9f4fc60ca6c43ffca017990c2d5ebc",
+      "distributed_sha256": "b7a997074d0f3dafb6c12bcb148bbef5df9f4fc60ca6c43ffca017990c2d5ebc",
+      "change": "Unchanged bytes"
+    },
+    {
+      "file": "packages/enumeration/output/D1_bound5-v2.txt",
+      "original_file": "historical-v2/output/D1_bound5-v2.tex",
+      "original_sha256": "5edcf8777371c4ad8979f122022d3119a8ae2de75d9674b336df994bba860b70",
+      "distributed_sha256": "5edcf8777371c4ad8979f122022d3119a8ae2de75d9674b336df994bba860b70",
+      "change": "Unchanged bytes"
+    }
+  ]
+}

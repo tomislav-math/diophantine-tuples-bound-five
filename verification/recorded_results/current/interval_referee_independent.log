@@ -1,0 +1,23 @@
+polynomial sums N2 [[Fraction(96, 1), Fraction(352, 1), Fraction(256, 1)], [Fraction(100, 1), Fraction(400, 1), Fraction(480, 1)], [Fraction(100, 1), Fraction(400, 1), Fraction(480, 1)]]
+uniform exact N2 485204101/2000000 floor+1 243
+polynomial sums N3 [[Fraction(1344, 1), Fraction(9408, 1), Fraction(17024, 1), Fraction(8960, 1)], [Fraction(1368, 1), Fraction(8384, 1), Fraction(23168, 1), Fraction(16384, 1)], [Fraction(1368, 1), Fraction(8384, 1), Fraction(23168, 1), Fraction(16384, 1)]]
+uniform exact N3 207140601865271/50000000000 floor+1 4143
+polynomial sums A3 [[Fraction(800, 1), Fraction(4544, 1), Fraction(10368, 1), Fraction(6144, 1)], [Fraction(1288, 1), Fraction(4256, 1), Fraction(9856, 1), Fraction(8960, 1)], [Fraction(1288, 1), Fraction(4256, 1), Fraction(9856, 1), Fraction(8960, 1)]]
+uniform exact A3 113244485748261/50000000000 floor+1 2265
+polynomial sums A4 [[Fraction(10944, 1), Fraction(86784, 1), Fraction(350208, 1), Fraction(482304, 1), Fraction(215040, 1)], [Fraction(18128, 1), Fraction(80512, 1), Fraction(276096, 1), Fraction(561920, 1), Fraction(327680, 1)], [Fraction(18128, 1), Fraction(80512, 1), Fraction(276096, 1), Fraction(561920, 1), Fraction(327680, 1)]]
+uniform exact A4 2072028863364346433/12500000000000 floor+1 165763
+polynomial sums A5 [[Fraction(156000, 1), Fraction(1601280, 1), Fraction(9707520, 1), Fraction(22379520, 1), Fraction(22087680, 1), Fraction(7864320, 1)], [Fraction(262152, 1), Fraction(1463264, 1), Fraction(6707712, 1), Fraction(22437888, 1), Fraction(28452864, 1), Fraction(12300288, 1)], [Fraction(262152, 1), Fraction(1463264, 1), Fraction(6707712, 1), Fraction(22437888, 1), Fraction(28452864, 1), Fraction(12300288, 1)]]
+uniform exact A5 155650636771039341017669/50000000000000000 floor+1 3113013
+all-large min 11 7834457305497600/5386911336360281 1.4543505204210447
+region 1 minimum 1.2606619065104314 junction 11
+region 2 minimum 2.329681610981888 junction 11
+region 3 minimum 1.1660489526811069 junction 11
+region 4 minimum 5.459188847904102 junction 11
+region 5 minimum 1.3218181740641783 junction 11
+fixed pair coefficient rows reconstructed 40
+S15 minimum 1.1871579586098404 pair/junction (0, 15)
+INDEPENDENT NUMERICAL CHECKS PASS
+fixed 56 cutoffs reconstructed 56
+rational cutoff (34, 1024, [3, 23, 96, 101, 108, 179, 131, 9, 34, 76, 123, 29, 438], 14)
+labels and references PASS; common table occurs once
+FULL INDEPENDENT INTERVAL REVIEW NUMERICS PASS
