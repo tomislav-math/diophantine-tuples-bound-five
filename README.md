@@ -6,8 +6,8 @@
 
 **[Read the paper (PDF)](Diophantine_tuples_bound_five_2026-10-15.pdf)**
 
-A $D(1)$-tuple is a finite set of distinct nonzero elements such that the
-product of any two distinct elements, increased by one, is a square.
+A $D(1)$-tuple in a ring is a finite set of distinct nonzero elements such that
+the product of any two distinct elements, increased by one, is a square in that ring.
 We prove that every $D(1)$-tuple in the full ring of integers of an
 imaginary quadratic field has at most five elements. Zero is allowed
 as a square in this definition.
@@ -31,10 +31,8 @@ integers of an imaginary quadratic field.
 
 The verification guide lists each calculation, explains its method, and
 links directly to the program and its recorded output. All eleven groups
-of checks passed in a complete run on 15 October 2026. The full verification
+of checks passed in the recorded complete run. The full verification
 can be repeated with one command and requires only Python.
-
-The code in verification/ is released under the MIT License; the article (PDF and LaTeX source) is not covered by this license and remains copyright the authors.
 
 ## Lean formalization
 
@@ -44,4 +42,4 @@ are available in a separate repository. The
 [Prove2Me project](https://prove2.me/missions/458763a2-e999-4896-81fd-7915d24557a0)
 contains the verified proof, and its
 [main theorem](https://prove2.me/theorems/4bb5d407-713b-46ac-967d-97d7abf88598)
-has status **Proved**. Verification on Prove2Me was completed on 24 October 2026.
+has status **Proved**. The formalization was completed on 24 October 2026.

@@ -14,7 +14,7 @@ for each calculation are given on the results page.
 | Part of the paper | What the program does | Program | Output |
 |---|---|---|---|
 | Lemmas 2.2 and 2.5 | Enumerates the finite tail candidates and checks the structural identities and determinant constants | [structural_checks.py](programs/structural_checks.py) | [01_structural.txt](results/01_structural.txt) |
-| Explicit bounds in Sections 2–3 and Lemma 7.4 | Checks the rational inequalities used in the growth, interpolation and fourth-element estimates | [gap_bounds.py](programs/gap_bounds.py) | [02_gap_bounds.txt](results/02_gap_bounds.txt) |
+| Explicit bounds in Sections 2–3 and Lemma 7.4 | Checks the rational inequalities used in the growth, interpolation and fourth-element estimates, including those used in the two-small-entry cutoff $C<10^{550}$ | [gap_bounds.py](programs/gap_bounds.py) | [02_gap_bounds.txt](results/02_gap_bounds.txt) |
 | Approximation constructions in Sections 4–5 | Constructs the polynomial matrices and verifies their coefficients, divisibility, determinants and residual cancellations | [approximation_polynomials.py](programs/approximation_polynomials.py) | [03_approximation_polynomials.txt](results/03_approximation_polynomials.txt) |
 | Normalization and root transfer in Section 4 | Checks the root-transfer algebra and bounds, together with explicitly listed finite determinant examples | [approximation_bounds.py](programs/approximation_bounds.py) | [04_approximation_bounds.txt](results/04_approximation_bounds.txt) |
 | Constants in Section 7 | Verifies the numerical inequalities used to obtain the finite search bounds | [small_element_bounds.py](programs/small_element_bounds.py) | [05_small_element_bounds.txt](results/05_small_element_bounds.txt) |
