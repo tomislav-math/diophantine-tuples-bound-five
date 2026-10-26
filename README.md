@@ -39,7 +39,7 @@ can be repeated with one command and requires only Python.
 The main theorem has been fully formalized in Lean 4 with mathlib. The
 [Lean source code and verification instructions](https://github.com/tomislav-math/d1-bound5-lean)
 are available in a separate repository. The
-[Prove2Me project](https://prove2.me/missions/458763a2-e999-4896-81fd-7915d24557a0)
+[Prove2Me project](https://prove2.me/missions/No_Diophantine_sextuples_in_rings_of_integers_of_imaginary_quadratic_fields)
 contains the verified proof, and its
 [main theorem](https://prove2.me/theorems/4bb5d407-713b-46ac-967d-97d7abf88598)
 has status **Proved**. The formalization was completed on 24 October 2026.
